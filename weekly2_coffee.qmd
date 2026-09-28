@@ -1,0 +1,283 @@
+---
+title: "Weekly 2: Coffee Ratings"
+author: "Chandler Worth"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Overview
+
+You want to know which producers grow the best-rated coffee.
+
+That sounds like a `group_by()` and a `summarise()`. The problem is that `producer` was typed by different people in different ways, so the same producer can appear under several labels, and some labels are not producers at all.
+
+Your job is to work out how much of that you can fix, how much you shouldn't, and what that does to the answer.
+
+A few things:
+
+1.  Add `#| echo: false` to your code blocks.
+2.  Use a new block when you move to a new task.
+3.  Code goes in the blocks. **Answers go outside them**, as prose. A comment inside a code chunk is not an answer.
+4.  Keep the original `producer` column. Every cleaned version goes in a **new** column.
+
+Due Monday at 8pm.
+
+## Your data
+
+Import `coffee_ratings.csv` and inspect it.
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+
+coffee_ratings <- read_csv("data/raw/coffee_ratings.csv")
+```
+
+## Before you start
+
+> What does one row represent?
+>
+> One row represents one cup of coffee.
+
+> Is there a column that uniquely identifies a row? How would you check?
+>
+> There isn't a column that uniquely identify's a row in this. You would look for a primary key, one that is unique in each row. We can use the count function.
+
+> Is `producer` a key? What does it mean that the same producer can appear on many rows?
+>
+> Producer isn't a key, for it to appear in many rows, it means that multiple cups of coffee were consumed by the same producer.
+
+## How many producers?
+
+Count the distinct values of `producer`.
+
+```{r}
+#| warning: false
+
+?count
+
+count <- coffee_ratings |>
+  count(producer)
+
+```
+
+> How many distinct values are there?
+>
+> There are 692 distinct values.
+
+> How many rows have no producer recorded? Does your distinct count include "missing" as one of its values? How would you check?
+
+> Why shouldn't you read that number as the number of distinct producers?
+
+## Normalize the representation
+
+Create a new column, `producer_clean`, that makes the producer labels consistent in case and whitespace. Keep `producer`.
+
+```{r}
+#| warning: false
+
+coffee_ratings_clean <- coffee_ratings |> 
+  mutate(producer_clean = 
+           str_squish(producer) |> 
+           str_to_lower())
+
+distinctValues <- coffee_ratings_clean |>
+  select(producer_clean) |> 
+  distinct()
+```
+
+> How many distinct values does `producer_clean` have?
+>
+> It has 666 distinct values.
+
+> Is that the number of producers now? What does the reduction establish, and what does it *not* establish?
+>
+> This is the numbe rof unique producers now. This reduction establishes that there is multiple in the data set.
+
+## Which labels actually merged?
+
+A single number doesn't tell you what happened. Build a table showing every `producer_clean` value that more than one raw `producer` value was combined into, along with the raw values that went into it.
+
+```{r}
+#| warning: false
+count_producers_clean <- coffee_ratings_clean |>
+  select(producer, producer_clean) |> 
+  distinct()
+  
+count_of_coffee_ratings_clean <- coffee_ratings_clean |>
+  distinct(producer,producer_clean) |>
+  count(producer_clean, sort = TRUE) |> 
+  filter(n>1)
+
+
+coffee_prep <- coffee_ratings_clean |> 
+  distinct(producer, producer_clean) |> 
+  semi_join(count_of_coffee_ratings_clean, join_by("producer_clean")) |> 
+  arrange(producer_clean, producer)
+```
+
+> How many cleaned labels absorbed more than one raw label?
+>
+> 22 of those cleaned labels absorbed more than one raw label.
+
+> Look through them. Is every merge one you would stand behind?
+
+> Is this table more useful than knowing the number of labels went down? Why?
+
+## Does it change anything?
+
+Compare the La Plata coffees before and after normalizing. For each version, report the number of coffees and the mean and median `total_cup_points`.
+
+```{r}
+#| warning: false
+producer_clean_sorted <- coffee_ratings_clean |>
+  arrange(producer_clean)
+
+La_Plata <- producer_clean_sorted |>
+  filter(producer_clean == "la plata")
+
+La_Plata_select <- La_Plata |>
+  select(producer_clean,producer,total_cup_points)
+
+mean(La_Plata_select$total_cup_points)
+median(La_Plata_select$total_cup_points)
+
+La_Plata_unclean <- coffee_ratings |>
+  filter(producer == "La Plata")
+
+La_Plata_select_unclean <- La_Plata_unclean |>
+  select(producer,total_cup_points)
+
+mean(La_Plata_select_unclean$total_cup_points)
+median(La_Plata_select_unclean$total_cup_points)
+```
+
+> What changed more: the number of coffees or the average score?
+>
+> The number of coffees or median changed more.
+
+> Suppose you had reported how many coffees La Plata produced using the raw column. How far off would you have been?
+>
+> I would've been 9 La Plata coffee's off . The difference in the clean vs not cleaned data sets is 9 observations.
+
+## What case and whitespace didn't catch
+
+Some labels still differ only in punctuation, i.e., a period, a comma, a slash.
+
+Sort the distinct values of `producer_clean` and read through them. Near-duplicates end up next to each other.
+
+```{r}
+#| warning: false
+producer_clean_sorted <- coffee_ratings_clean |>
+  arrange(producer_clean)
+```
+
+> Find at least **three** pairs of labels that differ only in punctuation.
+
+Now use exact replacement to make each pair consistent. Change only the values you identified and nothing else.
+
+```{r}
+#| warning: false
+
+producer_clean_3 <- producer_clean_sorted |> 
+  mutate(
+    producer_clean = case_when(
+      producer_clean == "ipanema agricola s.a" ~ "ipanema agricola sa",
+      producer_clean == "kerchanshe trading p.l.c" ~ "kerchanshe trading plc",
+      producer_clean == "plantaciones agropecuarias s.a" ~ "plantaciones agropecuarias s.a.",
+      TRUE ~ producer_clean
+    )
+  )
+```
+
+> For each change, say why you're confident it's the same producer.
+>
+> For each on of these they are only being change by a period. I believe they are the same in every other way besides when someone was typing they forgot to add that extra period.
+
+> How long did it take to find those by reading? How many labels did you have to look at?
+>
+> It took me probably 5 minutes, I had to look through alot of labels to find these specific 3.
+
+## The top producers
+
+Using `producer_clean`, find the ten producers with the most coffees in the data.
+
+```{r}
+#| warning: false
+top_10_producers <- coffee_ratings_clean |>
+  count(producer_clean, sort=TRUE)
+```
+
+Look at that list carefully.
+
+> Is every entry in it a producer? If not, which ones aren't, and what do they mean?
+>
+> Number 1 is N/A values so this means someone did not put the coffee producer or they couldn't find it for rating. Tied for 10th place is "several", which could me several different brands were rated in this one.
+
+> Is any single producer split across more than one row of the list?
+>
+> Yes, there are multiple.
+
+Now look at these four raw labels:
+
+- Ipanema Agricola
+- Ipanema Agricola S.A
+- Ipanema Agrícola SA
+- Ipanema Coffees
+
+> Should these be combined into one producer? **Don't recode them.** Explain whether combining them would be normalization or classification, and what evidence you'd need before doing it.
+>
+> For some of them like the ones ending in SA they are just missing punctuation. The other ones we would need to know more if they are the same producer. They could be from different area producers. They could classify themselves differently we would need to have more information.
+
+> If you did combine them, what would happen to your top-ten list?
+>
+> There would be 2 new addition to the top ten list because they would combine as one company so another 2 would be added.
+
+## What this means for your question
+
+> A classmate says: "I reduced the producer column from 692 labels to 666, so the cleaned column is better." Is that justified? Explain.
+>
+> It is somewhat better but still has alot of work that could be done. There could be other names in there that are duplicated but we would have to have alot more information to know this. Like above there are some seperations in there that are just one punctuation different so this data would need alot more cleaning.
+
+> You set out to find which producers grow the best-rated coffee. Given everything above, what would you need to tell someone before they trusted your answer?
+>
+> I would tell them that I could give them a list that would have some duplicates in it and it would be at there discretion weather or not a company was the same. I would say that because of the duplicates some might be higher that it says so I would use the list but that it really isn't super accurate.
+
+## Disclosure appendix
+
+> What did you try first? Include the code you wrote and the actual error message, or a clear description of the problem if there was no error.
+
+> If you used an AI system: the exact prompt, exactly what it returned, what it got wrong or left unclear, and what you changed.
+
+> If you didn't use one, say so.
+
+I looked up "how do I count the distinct number of variables present in a dataset. This is the answer it gave me.
+
+Load your dataset
+df \<- read.csv("your_dataset.csv")
+
+Method 1: Get number of columns
+num_variables \<- ncol(df)
+
+Method 2: Get length of the dataframe
+num_variables \<- length(df)
+
+print(num_variables)
+
+I didn't use this instead I went back and looked at the previous in class labs and weekly 1 to find the answer.
+
+I types this also into the google search "how do i select a unique variable in r". And it gave me this answer...
+
+Returns a vector of unique values
+unique_vals \<- unique(df\$variable_name)
+
+I typed this into google "how do i save certain rows in r that have a certain varible." I got this back...
+
+Using the pipe operator
+filtered_data \<- my_data %\>%
+filter(status == "Active")
+
+I used this in my code above.
