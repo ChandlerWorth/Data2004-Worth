@@ -112,7 +112,7 @@ Use `str()` the way we did in class: look at one date, then one game inside it.
 #| warning: false
 #| echo: false
 
-str(mlb_data$dates[[1]], max.level = 4)
+str(mlb_data$dates[[1]], max.level = 7)
 
 ```
 
@@ -137,17 +137,36 @@ Start from `tibble(day = sched$dates)`. In class, `features` was one list of ear
 #| warning: false
 #| echo: false
 
-mlb_tbl <- tibble(day = mlb_data$dates) |> 
-  unnest_longer(day) |> 
-  unnest_wider(day, names_sep = "") |> 
-  unnest_longer(games)
+reds <- tibble(day = mlb_data$dates)
+
+reds_g <- reds |> 
+  hoist(day, 
+        games = "games") |>
+  select(games) |> 
+  unnest_longer(games) |> 
+  hoist(games,
+        game_Pk = "gamePk",
+        game_date = "gameDate",
+        status = c("status", "detailedState"),
+        home_id = c("teams", "home","team", "id"),
+        away_id = c("teams", "away", "team", "id"),
+        home_score = c("teams", "away", "score"),
+        away_score = c("teams", "away", "score"))
+
+reds_g
+
+
 
 
 ```
 
 > How many rows does `reds` have? What does `totalGames` say?
+>
+> Reds has 165 rows, total games says 165 games aswell.
 
 > A Major League regular season is 162 games. What's going on?
+>
+> I don't know why it is 162 games, maybe there are duplicates for the games.
 
 # Part 3: What is one row?
 
@@ -158,11 +177,26 @@ mlb_tbl <- tibble(day = mlb_data$dates) |>
 ```{r}
 #| warning: false
 #| echo: false
+
+reds_g |>
+  summarise(n_distinct(game_Pk))
+
+multiples <- reds_g |>
+  count(game_Pk) |>
+  filter(n > 1)
+
+reds_g |>
+  semi_join(multiples, by = "game_Pk")
+
 ```
 
 > How many distinct `game_pk` values are there? Which ones appear more than once?
+>
+> There are 162 distinct game_Pk values. The values 824490, 824154, and 824518 appear more than once.
 
 > Look at every row for those games, alongside their other columns. What happened to them?
+>
+> They were the multiples of games that got postponed. So, it shows a postponed score and a final score.
 
 > Hint: you might want to use a filtering join :)
 
@@ -173,15 +207,23 @@ You want one row per game that was actually played. Use `distinct(game_pk, .keep
 ```{r}
 #| warning: false
 #| echo: false
+
+reds_g |> 
+  distinct(game_Pk, .keep_all = TRUE)
+
 ```
 
-> For the games that appeared twice, which row did `distinct()` keep? Look at the scores. Is that the row you wanted?
+> For the games that appeared twice, which row did `distinct()` keep? Look at the scores. Is that the row you wanted? It kept the postponed ones not the final score ones. There are N?A values in the score columns.
 
 > Fix it. Show that your result has one row per `game_pk` and that every row has a score.
 
 ```{r}
 #| warning: false
 #| echo: false
+
+reds_g |>
+  filter(!is.na(home_score), !is.na(away_score))
+
 ```
 
 # Part 4: When did they play?
@@ -189,11 +231,17 @@ You want one row per game that was actually played. Use `distinct(game_pk, .keep
 ```{r}
 #| warning: false
 #| echo: false
+
+games <- reds_g |>
+  mutate(game_date = ymd_hms(game_date))
+
+
+
 ```
 
-> Parse `game_date`. What time zone is it in? How do you know?
+> Parse `game_date`. What time zone is it in? How do you know? UTC time zone, becasue that R uses unless said other wise.
 
-> For how many games does the **date** part of `game_date` differ from `official_date`? Look at a few. What do they have in common?
+> For how many games does the **date** part of `game_date` differ from `official_date`? Look at a few. What do they have in common? Yes, some of them do differ, I clicked through the list and most that differed only differ by an day,
 
 > Count the Reds' games by day of the week twice: once using `game_date` and once using `official_date`. Do you get the same counts? Which one answers "what day did they play?"
 
@@ -228,6 +276,68 @@ You want one row per game that was actually played. Use `distinct(game_pk, .keep
 > # Extract the text and write it
 >
 > raw_text \<- resp_body_string(request) writeLines(raw_text, "data/raw/reds_2026.json")
+>
+> I typed into R, "how do I get rid of N/A values in r." It gave me this...
+>
+> How you remove `NA` values in R depends entirely on whether your data is a single **vector** or a structured **data frame**.
+>
+> **1. If your data is a Vector**
+>
+> If you just have a list of individual values, you can filter out `NA`s completely. \[[1](https://www.icertglobal.com/community/how-to-remove-na-values-from-a-vector-in-r-easily)\]
+>
+> - **Using Logical Indexing (Most Common):**
+>
+>   **R**
+>
+>   ```         
+>   x <- c(1, 2, NA, 4, NA, 5)
+>   clean_x <- x[!is.na(x)]
+>   # Result: [1] 1 2 4 5
+>   ```
+>
+>   Use code with caution.
+>
+> - **Using `na.omit()`:**
+>
+>   **R**
+>
+>   ```         
+>   clean_x <- na.omit(x)
+>   ```
+>
+>   Use code with caution.
+>
+> **2. If your data is a Data Frame (Rows & Columns)**
+>
+> In a data frame, you cannot physically delete a single cell without breaking the table structure. You must choose whether to remove the **entire row** containing the `NA`, or target specific columns. \[[1](https://forum.posit.co/t/removing-na-values-from-a-specific-column-and-row/26613), [2](https://stackoverflow.com/questions/72849230/how-to-remove-na-values-in-a-specific-column-of-a-dataframe-in-r), [3](https://www.youtube.com/watch?v=w6m7OAMZAzk)\]
+>
+> **Option A: Target NAs in ONE specific column**
+>
+> If you only want to filter based on a specific column's missing values while ignoring `NA`s in other columns: \[[1](https://www.icertglobal.com/community/how-to-filter-and-remove-na-values-in-r-programming), [2](https://www.youtube.com/watch?v=w6m7OAMZAzk)\]
+>
+> - **Using Base R:**
+>
+>   **R**
+>
+>   ```         
+>   # Keeps rows where 'column_name' is NOT NA
+>   df_clean <- df[!is.na(df$column_name), ]
+>   ```
+>
+>   Use code with caution.
+>
+> - **Using `tidyverse` (dplyr / tidyr):**
+>
+>   **R**
+>
+>   ```         
+>   library(dplyr)
+>   df_clean <- df %>% filter(!is.na(column_name))
+>
+>   # OR using tidyr
+>   library(tidyr)
+>   df_clean <- df %>% drop_na(column_name)
+>   ```
 
 # Submit
 
