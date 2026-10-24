@@ -1,0 +1,51 @@
+---
+title: "Data 2004 Feasability report"
+author: "Chandler Worth, Caroline Katko, Forever Tungate"
+format: html
+---
+
+## Feasibility Report: Factors that Influence Internet Usage Across Countries
+
+For our project we wanted to look at factors that influence internet usage across countries. Specifically we are wanting to look at economic and social factors, such as GDP per capita, unemployment rates, and life expectancy and how those may possibly affect levels of internet usage. We can define a country as having a high level of internet usage if that country has more than 50% of the population able to utilize internet. Countries with less that that 50% of the population internet usage will be defined as low. If a country does have a more than 50% internet usage per the population size we can mark these countries as a 1, and those countries who are less than 50% we can mark with a zero. From there we can use this to identify potential correlation between internet usage and other variables .
+
+We plan to use data from the World Bank Group Database. This database gives information on various data of a country, for examples economic, and different demographic information. When combing through the data one of the main things we found was the "Individuals using the Internet (% of population." This is a variable that shows the percentage of a countries population that uses the internet. We thought this would be interesting to explore more because this Data base also gives us GDP per captia, and unemployment rates that we can utilize to see if there is a correlation between factors.
+
+```{r}
+library(tidyverse)
+
+brazil_raw <- read_csv("../data/raw/API_BRA_DS2_en_csv_v2_2904.csv", skip = 3)
+
+head(brazil_raw)
+glimpse(brazil_raw)
+
+brazil_longer <- brazil_raw %>% 
+  pivot_longer(
+    cols = !c("Country Name", "Country Code", "Indicator Name", "Indicator Code"),
+    names_to = "Year",
+    values_to = "Value"
+  )
+
+```
+
+For our data set we want our grain to be that one row will equal one country, while each column will have different variables like we stated above, internet usage, GDP, Population, Unemployment rate, etc. Our source covers multiple different years among many countries and we plan to look specifically at the years that provide us the most data or have the most data within them. This goes into our potential issues with the data, in that not every country is reporting its data annually so there is some missing data within. This might make things especially difficult to compare when they don’t all share the same amount of data. We can’t see across the same countries all of the same years. Our fallback to this is looking at countries and at years that do have the same amount of data. Also making sure every country has the same variables like those GDP per capita and unemployment rates to explore.
+
+```{r}
+head(brazil_longer)
+
+brazil_longer %>% 
+  distinct(`Indicator Name`)
+
+
+brazil_longer %>% 
+  filter(str_detect(`Indicator Name`, "\\bGDP\\b")) %>% 
+  print()
+
+brazil_longer %>% 
+  filter(str_detect(`Indicator Name`, "\\bper\\b")) %>% 
+  print()
+
+
+brazil_clean <- brazil_longer %>% 
+  filter(str_detect(`Indicator Name`, c("GDP")))
+brazil_clean
+```
