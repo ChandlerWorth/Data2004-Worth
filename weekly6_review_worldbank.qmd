@@ -1,0 +1,467 @@
+---
+title: "Weekly 6 (Review): How Many People, and Where?"
+author: "Chandler Worth"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Overview
+
+This weekly is review. Nothing in it is new. It puts the last few weeks together on one dataset: requests, reading structure, unnesting and hoisting, strings and regex, and joins.
+
+The World Bank has a free API with data on every country in the world. You're going to answer a question that sounds simple:
+
+**Which countries had the most people in 2023, and how is the world's population split up by region and income?**
+
+On the way, you'll find out that "every country in the world" isn't quite what the World Bank sends you.
+
+A few things:
+
+1.  Add `#| echo: false` to your code blocks.
+2.  Use a new block when you move to a new task.
+3.  Code goes in the blocks. **Answers go outside them**, as prose. A comment inside a code chunk is not an answer.
+4.  Save each raw response to a file **once**, then work from the file. After it's saved, add `#| eval: false` to the block that sends the request.
+5.  Look at nested data one level at a time: `str(x, max.level = 1)`. Never print a whole response.
+
+Due \[date\] at 8pm.
+
+# Part 1: Ask
+
+## Read the documentation first
+
+The World Bank's documentation for building a request is here: <https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures>
+
+> What format does the API send back if you don't ask for one? How do you ask for JSON?
+>
+> It sends back a XML format. TO ask for a JSON file you have to put format "=json"
+
+> How many results do you get per page if you don't say? How do you ask for more?
+>
+> The default is 50 if you don't ask for more, you can ask for more by typing "per page =" then the number you would like per page.
+
+## Make the request
+
+Population has the indicator code `SP.POP.TOTL`. The endpoint for one indicator, for every country, is:
+
+`https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL`
+
+Build a request with `httr2` for **2023 only**, in **JSON**. Don't set the number per page yet. Look at it with `req_dry_run()`, then send it.
+
+```{r}
+#| warning: false
+#| echo: false
+
+library(tidyverse)
+library(httr2)
+
+request <- request("https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL") |>
+  req_url_query(
+    date = "2023",
+    format = "json"
+  )
+
+response <- request |> req_perform()
+
+request |> req_dry_run()
+
+resp_status(response)
+```
+
+> What status did you get?
+>
+> 200 which means the request and response are good.
+
+Now look at the first element of what came back.
+
+```{r}
+#| warning: false
+#| echo: false
+
+response <- response |>
+  resp_body_json()
+
+response[[1]]
+```
+
+> How many records exist in total? How many did you get? Is a 200 enough to know you got everything?
+>
+> 266 records exist total. I got 50 because I got one page.
+
+## Get all of it, and save it
+
+Fix the request so you get every record in one response. Save it to `data/raw/wb_population_2023.json`, then read it back with `jsonlite::read_json()`.
+
+```{r}
+#| warning: false
+#| echo: false
+
+library(jsonlite)
+
+request <- request("https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL") |>
+  req_url_query(
+    date = "2023",
+    format = "json",
+    per_page = "266"
+  )
+
+response <- request |> req_perform()
+
+writeBin(resp_body_raw(response), "data/raw/wb_population_2023.json")
+
+wb_data <- jsonlite::read_json("data/raw/wb_population_2023.json")
+
+
+
+```
+
+```{r}
+#| warning: false
+#| echo: false
+
+resp_status(response)
+```
+
+> Fill this in:
+>
+> - URL: [https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOT](https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL)L?date=2023&format=json&per_page=266
+> - Date and time requested: Oct 25,2026, 9:01 PM
+> - Status: 200
+> - Records returned / records that exist: 266 records returned and 266 records that exist.
+> - One default that would have caught you:
+
+# Part 2: Read the structure
+
+```{r}
+#| warning: false
+#| echo: false
+
+str(wb_data,max.level = 1)
+
+str(wb_data,max.level = 2)
+```
+
+> Look at the top level with `str(..., max.level = 1)`. How many parts are there? Do they have names? Is the top level a `{ }` or a `[ ]`? How do you know?
+>
+> There are two parts both are just the names List, the top level is a \[ \], it is an array of other lists.
+
+> Which part holds the pagination information, and which holds the data? How would you get to each one in R?
+>
+> The first list holds the pagination information and the second hold the data of 266 different records. You are going to have to use there name as \[\[1\]\], and \[\[2\]\].
+
+Now look at **one** record, one level deep.
+
+```{r}
+#| warning: false
+#| echo: false
+
+str(wb_data[[2]][[1]], max.level = 2)
+```
+
+> Which fields are single values? Which are `{ }` with their own parts inside? What's inside `country`?
+>
+> The fields countryiso3code, date, value,, unit, obs_status, and decimal are all single values. Country and indicator have there own parts inside. Inside of country is id and value.
+
+# Part 3: Make it a table
+
+Create a tibble called `pop` with one row per record and these columns:
+
+- `iso3` (`countryiso3code`)
+- `country` (the country's name, inside `country`)
+- `year` (`date`)
+- `population` (`value`)
+
+```{r}
+#| warning: false
+#| echo: false
+
+pop <- tibble(data = wb_data[[2]])
+
+pop_unest <- pop |> 
+  unnest_wider(data) |>
+  hoist(country, country = "country") |> 
+  select(iso3 = countryiso3code,country,year = date, population = value) |>  
+  unnest_wider(country)
+
+head(pop_unest)
+```
+
+> Did you use `unnest_wider()`, `hoist()`, or both? Why that choice?
+>
+> I used both unnest wider and hoist, well i saw the data and new first i hide to break apart data after that I was left with all of the columns i needed so I used select to keep and rename them. The i looked into that and realized i needed to unnest wider country to see the countries name.
+
+> How many rows? Does it match the total from Part 1? What is one row?
+>
+> Yes, there are 266 rows, this matches the data from part 1. One row is one country.
+
+> Are any populations `NA`? Which places? What was the value in the raw JSON?
+>
+> Yes there are some that are NA, the value in the raw JSON is just "null".
+
+> Is `population` a number? Is `year`? Should they be?
+>
+> Population is a number and year is a character. Year is good without being a number because it is a value that is all the same.
+
+# Part 4: Are these all countries?
+
+Look through the `country` column.
+
+```{r}
+#| warning: false
+#| echo: false
+
+pop_unest$value
+
+pop_unest |> 
+  filter(iso3 == "")
+```
+
+> Name five rows that are not countries. What are they?
+>
+> Arab World, Fragility, Conflict, and Violence, High Income, Low Income, and Least Developed Countries: UN classification. These are different classifications or groups of countries
+
+> How many rows have an empty `iso3`? Are they `NA` or something else? How did you check?
+>
+> 5 rows have a blank value I used filter to show me how many, and they are just blanks, no NA.
+
+A classmate tries to remove the non-countries with a regex. Find every name that contains `"income"`, `"&"`, or `"and"`.
+
+```{r}
+#| warning: false
+#| echo: false
+
+pop_unest |>
+  filter(str_detect(value, regex("income|&|and"))) |>
+  select(value)
+```
+
+> Did that catch every non-country? Did it catch any real countries by mistake? Name them.
+>
+> I did catch some countries by mistake like Antigua and Barbuda, Bosnia and Herzegovina, British Virgin Islands, Finland, Greenland and so on and country that had "and" in the name
+
+> Improve the pattern as much as you can. Can a pattern ever do this job reliably? Why or why not? No because then it removed all the "ands" with a space.
+
+# Part 5: Connect a second table
+
+The World Bank also has an endpoint that describes each place: `https://api.worldbank.org/v2/country`. Request **all** of them in JSON, save the response, and read it back.
+
+```{r}
+#| warning: false
+#| echo: false
+
+request2 <- request("https://api.worldbank.org/v2/country") |> 
+  req_url_query(format = "json", per_page = "296")
+
+response2 <- request2 |> 
+  req_perform()
+
+response2|>
+  resp_body_json()
+
+
+writeBin(resp_body_raw(response2), "data/raw/wb_all.json")
+
+wb_all_data <- jsonlite::read_json("data/raw/wb_all.json")
+
+head(wb_all_data)
+```
+
+> How many places are in this table? Is that the same number as in `pop`? Why might they differ?
+>
+> Total is 296, this is not the same number at pop
+
+Create a tibble called `places` with `iso3` (`id`), `region` (inside `region`), and `income` (inside `incomeLevel`).
+
+```{r}
+#| warning: false
+#| echo: false
+
+all_datatbl <- tibble(data = wb_all_data[[2]])
+
+all_datatbl <- all_datatbl |>
+  unnest_wider(data)
+
+places <- all_datatbl |>
+  unnest_wider(region, names_sep = "_") |>
+  unnest_wider(incomeLevel, names_sep = "_") |>
+  select(
+    iso3 = id,
+    region = region_value,
+    income = incomeLevel_value
+  )
+```
+
+> Try to keep only the places in Latin America & Caribbean with `filter(region == "Latin America & Caribbean")`. How many rows do you get? Now look very closely at the text of each region name (hint: `str_length()`). What's going on, and how do you fix it?
+>
+> I got 0 rows when first doing the filter then using nrow() to see the number of rows. The problem was in the fact that there was spaces before or after the Latin America & Caribbean. Once I removed those with str_trim then we can look at nrow() again and we get 42.
+
+```{r}
+#| warning: false
+#| echo: false
+
+places |> 
+  filter(region == "Latin America & Caribbean") |> 
+  nrow()
+
+places |> 
+  mutate(name_length = str_length(region)) 
+
+places <- places |> 
+  mutate(region = str_trim(region)) 
+
+places |> 
+  filter(region == "Latin America & Caribbean") |> 
+  nrow()
+```
+
+## Mutating join
+
+Add `region` and `income` to `pop`.
+
+```{r}
+#| warning: false
+#| echo: false
+
+
+pop <- pop_unest |> 
+  left_join(places, by = "iso3")
+
+nrow(pop)
+```
+
+> Which key did you join on? Why not the country name, or the two-letter id inside `country`?
+>
+> I joined on Iso3 because they were found within both and was the primary key from what I could see.
+
+> How many rows before and after the join? Should it change?
+>
+> No because we are just adding column to already created rows so it was 266 before and after.
+
+> Which rows got `NA` for `region`? Why didn't they match?
+>
+> It was the rows they weren't actual regions but classifications.
+
+## Filtering joins
+
+In `places`, the non-countries have `region` equal to `"Aggregates"`.
+
+Make a table of only the real countries in `pop`, using a filtering join. Then make a table of everything you threw out.
+
+```{r}
+#| warning: false
+#| echo: false
+
+real_countries <- places |> 
+  filter(region != "Aggregates") |> 
+  semi_join(pop, by = "iso3")
+
+```
+
+> How many countries? How many places did you throw out? Does anything in the thrown-out list surprise you? 217 countries
+
+> Compare this to your regex in Part 4. Which would you trust, and why?
+
+# Part 6: Answer the question
+
+```{r}
+#| warning: false
+#| echo: false
+
+```
+
+> What were the five most populous countries in 2023?
+
+> What is the total population by region? By income level? Make one of these a plot.
+
+> The data includes a row called "World." Compare its population to the sum of your real countries. Are they the same? Why might they not be?
+
+> If you had **not** removed the aggregates, what would your regional totals have been? How wrong, and in which direction?
+
+# Bringing it together
+
+A classmate's project uses World Bank data. They downloaded a table, summed a column, and wrote "the world's population is tens of billions of people."
+
+Write them a short note, roughly 200 words, that:
+
+- explains what probably went wrong
+- tells them how to check for it
+- tells them how to fix it, and why a join is safer than a pattern
+- names one default in the API that could have caught them
+
+# Disclosure appendix
+
+> What did you try first? Include the code you wrote and the actual error message, or a clear description of the problem if there was no error.
+
+> If you used an AI system: the exact prompt, exactly what it returned, what it got wrong or left unclear, and what you changed.
+
+> If you didn't use one, say so.
+>
+> I typed into chat how to look at the first element of a JSON file in R, it gave me this.
+>
+> library(httr2)
+>
+> # Make a request and parse the body as JSON
+>
+> resp \<- request("https://example.com") \|\> req_perform()
+>
+> # Parse JSON into an R list (or vector)
+>
+> data \<- resp_body_json(resp)
+>
+> # View the first element
+>
+> data\[\[1\]\]
+>
+> I kept getting this error, Error in \`unnest_wider()\`: ! Can't duplicate names between the affected columns and the original data. ✖ These names are duplicated: ℹ \`id\`, from \`region\`. ℹ Use \`names_sep\` to disambiguate using the column name. ℹ Or use \`names_repair\` to specify a repair strategy. Run \`rlang::last_trace()\` to see where the error occurred.
+>
+> I put it into chat gpt and it told me this.
+>
+> This error in R means that when you use **`unnest_wider()`**, R is trying to create a new column called **`id`**, but your data already has a column with that name.
+>
+> The error says the duplicate **`id`** comes from the **`region`** column.
+>
+> ## **How to fix it**
+>
+> ### **Option 1: Use `names_sep` (recommended)**
+>
+> If you're using **`tidyr::unnest_wider()`**, add **`names_sep`** to give the newly created columns unique names.
+>
+> r
+>
+> ```         
+> library(tidyr)
+>
+> your_data %>%
+>   unnest_wider(region, names_sep = "_")
+> ```
+>
+> For example, if **`region`** contains an **`id`** field, the new column will be called **`region_id`** instead of **`id`**.
+>
+> This is usually the easiest fix because it preserves both columns.
+>
+> I was having trouble looking into str_length so i looked it up in google. I typed... how do i use str length to look at the text of each name in r. I was returned this and used it to answer the question above.
+>
+> **2. Inside a Dataframe (Using `dplyr`)**
+>
+> If your names are stored in a column inside a dataset, you can pair `str_length()` with `mutate()` to create a new column or `filter()` to drop rows based on length. \[[1](https://www.youtube.com/watch?v=nn_m3aBPDoI&t=359), [2](https://stackoverflow.com/questions/35902056/filter-row-names-based-on-string-length)\]
+>
+> **R**
+>
+> ```         
+> library(dplyr)
+> library(stringr)
+>
+> # Sample dataframe
+> df <- data.frame(
+>   name = c("Alex", "Sam", "Christina", "Max")
+> )
+>
+> # Scenario A: Add a new column with the name lengths
+> df_with_lengths <- df %>% 
+>   mutate(name_len = str_length(name))
+>
+> # Scenario B: Filter out names that are too short or too long
+> long_names_only <- df %>% 
+>   filter(str_length(name) > 4)
+> ```
