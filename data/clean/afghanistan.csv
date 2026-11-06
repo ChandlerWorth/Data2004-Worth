@@ -1,0 +1,604 @@
+Country Name,Indicator Name,Year,Value
+Afghanistan,"Life expectancy at birth, total (years)",1960,32.799
+Afghanistan,"Life expectancy at birth, total (years)",1961,33.291
+Afghanistan,"Life expectancy at birth, total (years)",1962,33.757
+Afghanistan,"Life expectancy at birth, total (years)",1963,34.201
+Afghanistan,"Life expectancy at birth, total (years)",1964,34.673
+Afghanistan,"Life expectancy at birth, total (years)",1965,35.124
+Afghanistan,"Life expectancy at birth, total (years)",1966,35.583
+Afghanistan,"Life expectancy at birth, total (years)",1967,36.042
+Afghanistan,"Life expectancy at birth, total (years)",1968,36.51
+Afghanistan,"Life expectancy at birth, total (years)",1969,36.979
+Afghanistan,"Life expectancy at birth, total (years)",1970,37.46
+Afghanistan,"Life expectancy at birth, total (years)",1971,37.932
+Afghanistan,"Life expectancy at birth, total (years)",1972,38.423
+Afghanistan,"Life expectancy at birth, total (years)",1973,38.951
+Afghanistan,"Life expectancy at birth, total (years)",1974,39.469
+Afghanistan,"Life expectancy at birth, total (years)",1975,39.994
+Afghanistan,"Life expectancy at birth, total (years)",1976,40.518
+Afghanistan,"Life expectancy at birth, total (years)",1977,41.082
+Afghanistan,"Life expectancy at birth, total (years)",1978,40.086
+Afghanistan,"Life expectancy at birth, total (years)",1979,38.844
+Afghanistan,"Life expectancy at birth, total (years)",1980,39.258
+Afghanistan,"Life expectancy at birth, total (years)",1981,39.406
+Afghanistan,"Life expectancy at birth, total (years)",1982,36.058
+Afghanistan,"Life expectancy at birth, total (years)",1983,36.517
+Afghanistan,"Life expectancy at birth, total (years)",1984,31.473
+Afghanistan,"Life expectancy at birth, total (years)",1985,32.132
+Afghanistan,"Life expectancy at birth, total (years)",1986,38.4
+Afghanistan,"Life expectancy at birth, total (years)",1987,38.831
+Afghanistan,"Life expectancy at birth, total (years)",1988,43.238
+Afghanistan,"Life expectancy at birth, total (years)",1989,44.496
+Afghanistan,"Life expectancy at birth, total (years)",1990,45.118
+Afghanistan,"Life expectancy at birth, total (years)",1991,45.521
+Afghanistan,"Life expectancy at birth, total (years)",1992,46.569
+Afghanistan,"Life expectancy at birth, total (years)",1993,51.021
+Afghanistan,"Life expectancy at birth, total (years)",1994,50.969
+Afghanistan,"Life expectancy at birth, total (years)",1995,52.103
+Afghanistan,"Life expectancy at birth, total (years)",1996,52.83
+Afghanistan,"Life expectancy at birth, total (years)",1997,53.212
+Afghanistan,"Life expectancy at birth, total (years)",1998,52.487
+Afghanistan,"Life expectancy at birth, total (years)",1999,54.532
+Afghanistan,"Life expectancy at birth, total (years)",2000,55.005
+Afghanistan,"Life expectancy at birth, total (years)",2001,55.511
+Afghanistan,"Life expectancy at birth, total (years)",2002,56.225
+Afghanistan,"Life expectancy at birth, total (years)",2003,57.171
+Afghanistan,"Life expectancy at birth, total (years)",2004,57.81
+Afghanistan,"Life expectancy at birth, total (years)",2005,58.247
+Afghanistan,"Life expectancy at birth, total (years)",2006,58.553
+Afghanistan,"Life expectancy at birth, total (years)",2007,58.956
+Afghanistan,"Life expectancy at birth, total (years)",2008,59.708
+Afghanistan,"Life expectancy at birth, total (years)",2009,60.248
+Afghanistan,"Life expectancy at birth, total (years)",2010,60.702
+Afghanistan,"Life expectancy at birth, total (years)",2011,61.25
+Afghanistan,"Life expectancy at birth, total (years)",2012,61.735
+Afghanistan,"Life expectancy at birth, total (years)",2013,62.188
+Afghanistan,"Life expectancy at birth, total (years)",2014,62.26
+Afghanistan,"Life expectancy at birth, total (years)",2015,62.27
+Afghanistan,"Life expectancy at birth, total (years)",2016,62.646
+Afghanistan,"Life expectancy at birth, total (years)",2017,62.406
+Afghanistan,"Life expectancy at birth, total (years)",2018,62.443
+Afghanistan,"Life expectancy at birth, total (years)",2019,62.941
+Afghanistan,"Life expectancy at birth, total (years)",2020,61.454
+Afghanistan,"Life expectancy at birth, total (years)",2021,60.417
+Afghanistan,"Life expectancy at birth, total (years)",2022,65.617
+Afghanistan,"Life expectancy at birth, total (years)",2023,66.035
+Afghanistan,"Life expectancy at birth, total (years)",2024,66.289
+Afghanistan,"Life expectancy at birth, total (years)",2025,NA
+Afghanistan,"Life expectancy at birth, total (years)",...71,NA
+Afghanistan,Armed forces personnel (% of total labor force),1960,NA
+Afghanistan,Armed forces personnel (% of total labor force),1961,NA
+Afghanistan,Armed forces personnel (% of total labor force),1962,NA
+Afghanistan,Armed forces personnel (% of total labor force),1963,NA
+Afghanistan,Armed forces personnel (% of total labor force),1964,NA
+Afghanistan,Armed forces personnel (% of total labor force),1965,NA
+Afghanistan,Armed forces personnel (% of total labor force),1966,NA
+Afghanistan,Armed forces personnel (% of total labor force),1967,NA
+Afghanistan,Armed forces personnel (% of total labor force),1968,NA
+Afghanistan,Armed forces personnel (% of total labor force),1969,NA
+Afghanistan,Armed forces personnel (% of total labor force),1970,NA
+Afghanistan,Armed forces personnel (% of total labor force),1971,NA
+Afghanistan,Armed forces personnel (% of total labor force),1972,NA
+Afghanistan,Armed forces personnel (% of total labor force),1973,NA
+Afghanistan,Armed forces personnel (% of total labor force),1974,NA
+Afghanistan,Armed forces personnel (% of total labor force),1975,NA
+Afghanistan,Armed forces personnel (% of total labor force),1976,NA
+Afghanistan,Armed forces personnel (% of total labor force),1977,NA
+Afghanistan,Armed forces personnel (% of total labor force),1978,NA
+Afghanistan,Armed forces personnel (% of total labor force),1979,NA
+Afghanistan,Armed forces personnel (% of total labor force),1980,NA
+Afghanistan,Armed forces personnel (% of total labor force),1981,NA
+Afghanistan,Armed forces personnel (% of total labor force),1982,NA
+Afghanistan,Armed forces personnel (% of total labor force),1983,NA
+Afghanistan,Armed forces personnel (% of total labor force),1984,NA
+Afghanistan,Armed forces personnel (% of total labor force),1985,NA
+Afghanistan,Armed forces personnel (% of total labor force),1986,NA
+Afghanistan,Armed forces personnel (% of total labor force),1987,NA
+Afghanistan,Armed forces personnel (% of total labor force),1988,NA
+Afghanistan,Armed forces personnel (% of total labor force),1989,NA
+Afghanistan,Armed forces personnel (% of total labor force),1990,1.95011668758559
+Afghanistan,Armed forces personnel (% of total labor force),1991,1.4953887196515
+Afghanistan,Armed forces personnel (% of total labor force),1992,1.38506158753297
+Afghanistan,Armed forces personnel (% of total labor force),1993,1.23741684558798
+Afghanistan,Armed forces personnel (% of total labor force),1994,1.14487765201367
+Afghanistan,Armed forces personnel (% of total labor force),1995,9.34047469121561
+Afghanistan,Armed forces personnel (% of total labor force),1996,10.119817220532
+Afghanistan,Armed forces personnel (% of total labor force),1997,9.81047937569677
+Afghanistan,Armed forces personnel (% of total labor force),1998,8.86996236031472
+Afghanistan,Armed forces personnel (% of total labor force),1999,8.59921201120735
+Afghanistan,Armed forces personnel (% of total labor force),2000,8.53933591719406
+Afghanistan,Armed forces personnel (% of total labor force),2001,NA
+Afghanistan,Armed forces personnel (% of total labor force),2002,2.42556791135358
+Afghanistan,Armed forces personnel (% of total labor force),2003,2.47162667638079
+Afghanistan,Armed forces personnel (% of total labor force),2004,0.494580315630167
+Afghanistan,Armed forces personnel (% of total labor force),2005,0.475994202038031
+Afghanistan,Armed forces personnel (% of total labor force),2006,0.858992940257041
+Afghanistan,Armed forces personnel (% of total labor force),2007,0.837459188232746
+Afghanistan,Armed forces personnel (% of total labor force),2008,1.49828159851983
+Afghanistan,Armed forces personnel (% of total labor force),2009,3.89636428206542
+Afghanistan,Armed forces personnel (% of total labor force),2010,4.49619860184051
+Afghanistan,Armed forces personnel (% of total labor force),2011,4.76053868009362
+Afghanistan,Armed forces personnel (% of total labor force),2012,4.49756188653136
+Afghanistan,Armed forces personnel (% of total labor force),2013,4.20804182054156
+Afghanistan,Armed forces personnel (% of total labor force),2014,3.75230144395559
+Afghanistan,Armed forces personnel (% of total labor force),2015,3.72466666915444
+Afghanistan,Armed forces personnel (% of total labor force),2016,3.63591541487427
+Afghanistan,Armed forces personnel (% of total labor force),2017,3.50177143016357
+Afghanistan,Armed forces personnel (% of total labor force),2018,2.96146107138261
+Afghanistan,Armed forces personnel (% of total labor force),2019,3.0241574702727
+Afghanistan,Armed forces personnel (% of total labor force),2020,1.82108954131721
+Afghanistan,Armed forces personnel (% of total labor force),2021,NA
+Afghanistan,Armed forces personnel (% of total labor force),2022,NA
+Afghanistan,Armed forces personnel (% of total labor force),2023,NA
+Afghanistan,Armed forces personnel (% of total labor force),2024,NA
+Afghanistan,Armed forces personnel (% of total labor force),2025,NA
+Afghanistan,Armed forces personnel (% of total labor force),...71,NA
+Afghanistan,Individuals using the Internet (% of population),1960,NA
+Afghanistan,Individuals using the Internet (% of population),1961,NA
+Afghanistan,Individuals using the Internet (% of population),1962,NA
+Afghanistan,Individuals using the Internet (% of population),1963,NA
+Afghanistan,Individuals using the Internet (% of population),1964,NA
+Afghanistan,Individuals using the Internet (% of population),1965,NA
+Afghanistan,Individuals using the Internet (% of population),1966,NA
+Afghanistan,Individuals using the Internet (% of population),1967,NA
+Afghanistan,Individuals using the Internet (% of population),1968,NA
+Afghanistan,Individuals using the Internet (% of population),1969,NA
+Afghanistan,Individuals using the Internet (% of population),1970,NA
+Afghanistan,Individuals using the Internet (% of population),1971,NA
+Afghanistan,Individuals using the Internet (% of population),1972,NA
+Afghanistan,Individuals using the Internet (% of population),1973,NA
+Afghanistan,Individuals using the Internet (% of population),1974,NA
+Afghanistan,Individuals using the Internet (% of population),1975,NA
+Afghanistan,Individuals using the Internet (% of population),1976,NA
+Afghanistan,Individuals using the Internet (% of population),1977,NA
+Afghanistan,Individuals using the Internet (% of population),1978,NA
+Afghanistan,Individuals using the Internet (% of population),1979,NA
+Afghanistan,Individuals using the Internet (% of population),1980,NA
+Afghanistan,Individuals using the Internet (% of population),1981,NA
+Afghanistan,Individuals using the Internet (% of population),1982,NA
+Afghanistan,Individuals using the Internet (% of population),1983,NA
+Afghanistan,Individuals using the Internet (% of population),1984,NA
+Afghanistan,Individuals using the Internet (% of population),1985,NA
+Afghanistan,Individuals using the Internet (% of population),1986,NA
+Afghanistan,Individuals using the Internet (% of population),1987,NA
+Afghanistan,Individuals using the Internet (% of population),1988,NA
+Afghanistan,Individuals using the Internet (% of population),1989,NA
+Afghanistan,Individuals using the Internet (% of population),1990,0
+Afghanistan,Individuals using the Internet (% of population),1991,NA
+Afghanistan,Individuals using the Internet (% of population),1992,NA
+Afghanistan,Individuals using the Internet (% of population),1993,NA
+Afghanistan,Individuals using the Internet (% of population),1994,NA
+Afghanistan,Individuals using the Internet (% of population),1995,NA
+Afghanistan,Individuals using the Internet (% of population),1996,NA
+Afghanistan,Individuals using the Internet (% of population),1997,NA
+Afghanistan,Individuals using the Internet (% of population),1998,NA
+Afghanistan,Individuals using the Internet (% of population),1999,NA
+Afghanistan,Individuals using the Internet (% of population),2000,NA
+Afghanistan,Individuals using the Internet (% of population),2001,0.00472256824217368
+Afghanistan,Individuals using the Internet (% of population),2002,0.00456139517022146
+Afghanistan,Individuals using the Internet (% of population),2003,0.0878912528559713
+Afghanistan,Individuals using the Internet (% of population),2004,0.105809030021958
+Afghanistan,Individuals using the Internet (% of population),2005,1.22414808372471
+Afghanistan,Individuals using the Internet (% of population),2006,2.10712364546412
+Afghanistan,Individuals using the Internet (% of population),2007,1.899999976
+Afghanistan,Individuals using the Internet (% of population),2008,1.84
+Afghanistan,Individuals using the Internet (% of population),2009,3.55
+Afghanistan,Individuals using the Internet (% of population),2010,4
+Afghanistan,Individuals using the Internet (% of population),2011,5
+Afghanistan,Individuals using the Internet (% of population),2012,5.454500198
+Afghanistan,Individuals using the Internet (% of population),2013,5.900000095
+Afghanistan,Individuals using the Internet (% of population),2014,7
+Afghanistan,Individuals using the Internet (% of population),2015,8.260000229
+Afghanistan,Individuals using the Internet (% of population),2016,11
+Afghanistan,Individuals using the Internet (% of population),2017,13.5
+Afghanistan,Individuals using the Internet (% of population),2018,16.799999239999998
+Afghanistan,Individuals using the Internet (% of population),2019,17.60000038
+Afghanistan,Individuals using the Internet (% of population),2020,17.04850006
+Afghanistan,Individuals using the Internet (% of population),2021,16.51429939
+Afghanistan,Individuals using the Internet (% of population),2022,15.86629963
+Afghanistan,Individuals using the Internet (% of population),2023,15.92840004
+Afghanistan,Individuals using the Internet (% of population),2024,16.09499931
+Afghanistan,Individuals using the Internet (% of population),2025,NA
+Afghanistan,Individuals using the Internet (% of population),...71,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1960,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1961,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1962,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1963,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1964,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1965,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1966,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1967,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1968,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1969,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1970,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1971,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1972,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1973,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1974,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1975,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1976,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1977,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1978,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1979,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1980,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1981,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1982,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1983,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1984,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1985,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1986,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1987,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1988,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1989,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1990,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1991,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1992,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1993,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1994,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1995,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1996,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1997,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1998,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",1999,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2000,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2001,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2002,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2003,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2004,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2005,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2006,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2007,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2008,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2009,4.05954969836362
+Afghanistan,"Intentional homicides (per 100,000 people)",2010,3.47545228477135
+Afghanistan,"Intentional homicides (per 100,000 people)",2011,4.19453539608613
+Afghanistan,"Intentional homicides (per 100,000 people)",2012,6.37433845786952
+Afghanistan,"Intentional homicides (per 100,000 people)",2013,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2014,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2015,9.95218590955213
+Afghanistan,"Intentional homicides (per 100,000 people)",2016,6.6799974594108
+Afghanistan,"Intentional homicides (per 100,000 people)",2017,6.79202120758186
+Afghanistan,"Intentional homicides (per 100,000 people)",2018,6.73324816708819
+Afghanistan,"Intentional homicides (per 100,000 people)",2019,7.16396695794585
+Afghanistan,"Intentional homicides (per 100,000 people)",2020,6.57810893906391
+Afghanistan,"Intentional homicides (per 100,000 people)",2021,4.0324584656778
+Afghanistan,"Intentional homicides (per 100,000 people)",2022,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2023,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2024,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",2025,NA
+Afghanistan,"Intentional homicides (per 100,000 people)",...71,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1960,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1961,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1962,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1963,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1964,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1965,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1966,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1967,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1968,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1969,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1970,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1971,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1972,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1973,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1974,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1975,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1976,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1977,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1978,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1979,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1980,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1981,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1982,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1983,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1984,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1985,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1986,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1987,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1988,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1989,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1990,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1991,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1992,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1993,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1994,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1995,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1996,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1997,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1998,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1999,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2000,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2001,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2002,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2003,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2004,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2005,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2006,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2007,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2008,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2009,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2010,102000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2011,186000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2012,100000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2013,124000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2014,156000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2015,335000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2016,653000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2017,474000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2018,372000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2019,461000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2020,404000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2021,723000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2022,32000
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2023,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2024,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2025,NA
+Afghanistan,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",...71,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1960,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1961,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1962,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1963,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1964,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1965,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1966,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1967,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1968,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1969,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1970,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1971,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1972,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1973,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1974,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1975,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1976,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1977,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1978,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1979,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1980,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1981,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1982,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1983,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1984,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1985,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1986,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1987,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1988,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1989,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1990,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1991,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1992,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1993,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1994,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1995,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1996,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1997,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1998,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",1999,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2000,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2001,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2002,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2003,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2004,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2005,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2006,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2007,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2008,2.494
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2009,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2010,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2011,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2012,1.692
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2013,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2014,7.915
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2015,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2016,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2017,11.184
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2018,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2019,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2020,11.71
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2021,5.679
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2022,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2023,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2024,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",2025,NA
+Afghanistan,"Unemployment, total (% of total labor force) (national estimate)",...71,NA
+Afghanistan,Access to electricity (% of population),1960,NA
+Afghanistan,Access to electricity (% of population),1961,NA
+Afghanistan,Access to electricity (% of population),1962,NA
+Afghanistan,Access to electricity (% of population),1963,NA
+Afghanistan,Access to electricity (% of population),1964,NA
+Afghanistan,Access to electricity (% of population),1965,NA
+Afghanistan,Access to electricity (% of population),1966,NA
+Afghanistan,Access to electricity (% of population),1967,NA
+Afghanistan,Access to electricity (% of population),1968,NA
+Afghanistan,Access to electricity (% of population),1969,NA
+Afghanistan,Access to electricity (% of population),1970,NA
+Afghanistan,Access to electricity (% of population),1971,NA
+Afghanistan,Access to electricity (% of population),1972,NA
+Afghanistan,Access to electricity (% of population),1973,NA
+Afghanistan,Access to electricity (% of population),1974,NA
+Afghanistan,Access to electricity (% of population),1975,NA
+Afghanistan,Access to electricity (% of population),1976,NA
+Afghanistan,Access to electricity (% of population),1977,NA
+Afghanistan,Access to electricity (% of population),1978,NA
+Afghanistan,Access to electricity (% of population),1979,NA
+Afghanistan,Access to electricity (% of population),1980,NA
+Afghanistan,Access to electricity (% of population),1981,NA
+Afghanistan,Access to electricity (% of population),1982,NA
+Afghanistan,Access to electricity (% of population),1983,NA
+Afghanistan,Access to electricity (% of population),1984,NA
+Afghanistan,Access to electricity (% of population),1985,NA
+Afghanistan,Access to electricity (% of population),1986,NA
+Afghanistan,Access to electricity (% of population),1987,NA
+Afghanistan,Access to electricity (% of population),1988,NA
+Afghanistan,Access to electricity (% of population),1989,NA
+Afghanistan,Access to electricity (% of population),1990,NA
+Afghanistan,Access to electricity (% of population),1991,NA
+Afghanistan,Access to electricity (% of population),1992,NA
+Afghanistan,Access to electricity (% of population),1993,NA
+Afghanistan,Access to electricity (% of population),1994,NA
+Afghanistan,Access to electricity (% of population),1995,NA
+Afghanistan,Access to electricity (% of population),1996,NA
+Afghanistan,Access to electricity (% of population),1997,NA
+Afghanistan,Access to electricity (% of population),1998,NA
+Afghanistan,Access to electricity (% of population),1999,NA
+Afghanistan,Access to electricity (% of population),2000,4.4
+Afghanistan,Access to electricity (% of population),2001,9.3
+Afghanistan,Access to electricity (% of population),2002,14.1
+Afghanistan,Access to electricity (% of population),2003,19
+Afghanistan,Access to electricity (% of population),2004,23.8
+Afghanistan,Access to electricity (% of population),2005,28.7
+Afghanistan,Access to electricity (% of population),2006,33.5
+Afghanistan,Access to electricity (% of population),2007,38.4
+Afghanistan,Access to electricity (% of population),2008,42.4
+Afghanistan,Access to electricity (% of population),2009,48.3
+Afghanistan,Access to electricity (% of population),2010,42.7
+Afghanistan,Access to electricity (% of population),2011,43.2
+Afghanistan,Access to electricity (% of population),2012,69.1
+Afghanistan,Access to electricity (% of population),2013,68
+Afghanistan,Access to electricity (% of population),2014,89.5
+Afghanistan,Access to electricity (% of population),2015,71.5
+Afghanistan,Access to electricity (% of population),2016,97.7
+Afghanistan,Access to electricity (% of population),2017,97.7
+Afghanistan,Access to electricity (% of population),2018,93.4
+Afghanistan,Access to electricity (% of population),2019,97.7
+Afghanistan,Access to electricity (% of population),2020,97.7
+Afghanistan,Access to electricity (% of population),2021,97.7
+Afghanistan,Access to electricity (% of population),2022,85.3
+Afghanistan,Access to electricity (% of population),2023,85.3
+Afghanistan,Access to electricity (% of population),2024,87.8
+Afghanistan,Access to electricity (% of population),2025,NA
+Afghanistan,Access to electricity (% of population),...71,NA
+Afghanistan,"Population, total",1960,9035043
+Afghanistan,"Population, total",1961,9214083
+Afghanistan,"Population, total",1962,9404406
+Afghanistan,"Population, total",1963,9604487
+Afghanistan,"Population, total",1964,9814318
+Afghanistan,"Population, total",1965,10036008
+Afghanistan,"Population, total",1966,10266395
+Afghanistan,"Population, total",1967,10505959
+Afghanistan,"Population, total",1968,10756922
+Afghanistan,"Population, total",1969,11017409
+Afghanistan,"Population, total",1970,11290128
+Afghanistan,"Population, total",1971,11567667
+Afghanistan,"Population, total",1972,11853696
+Afghanistan,"Population, total",1973,12157999
+Afghanistan,"Population, total",1974,12469127
+Afghanistan,"Population, total",1975,12773954
+Afghanistan,"Population, total",1976,13059851
+Afghanistan,"Population, total",1977,13340756
+Afghanistan,"Population, total",1978,13611441
+Afghanistan,"Population, total",1979,13655567
+Afghanistan,"Population, total",1980,13169311
+Afghanistan,"Population, total",1981,11937581
+Afghanistan,"Population, total",1982,10991378
+Afghanistan,"Population, total",1983,10917982
+Afghanistan,"Population, total",1984,11190221
+Afghanistan,"Population, total",1985,11426852
+Afghanistan,"Population, total",1986,11420074
+Afghanistan,"Population, total",1987,11387818
+Afghanistan,"Population, total",1988,11523298
+Afghanistan,"Population, total",1989,11874088
+Afghanistan,"Population, total",1990,12045660
+Afghanistan,"Population, total",1991,12238879
+Afghanistan,"Population, total",1992,13278974
+Afghanistan,"Population, total",1993,14943172
+Afghanistan,"Population, total",1994,16250794
+Afghanistan,"Population, total",1995,17065836
+Afghanistan,"Population, total",1996,17763266
+Afghanistan,"Population, total",1997,18452091
+Afghanistan,"Population, total",1998,19159996
+Afghanistan,"Population, total",1999,19887785
+Afghanistan,"Population, total",2000,20130327
+Afghanistan,"Population, total",2001,20284307
+Afghanistan,"Population, total",2002,21378117
+Afghanistan,"Population, total",2003,22733049
+Afghanistan,"Population, total",2004,23560654
+Afghanistan,"Population, total",2005,24404567
+Afghanistan,"Population, total",2006,25424094
+Afghanistan,"Population, total",2007,25909852
+Afghanistan,"Population, total",2008,26482622
+Afghanistan,"Population, total",2009,27466101
+Afghanistan,"Population, total",2010,28284089
+Afghanistan,"Population, total",2011,29347708
+Afghanistan,"Population, total",2012,30560034
+Afghanistan,"Population, total",2013,31622704
+Afghanistan,"Population, total",2014,32792523
+Afghanistan,"Population, total",2015,33831764
+Afghanistan,"Population, total",2016,34700612
+Afghanistan,"Population, total",2017,35688935
+Afghanistan,"Population, total",2018,36743039
+Afghanistan,"Population, total",2019,37856121
+Afghanistan,"Population, total",2020,39068979
+Afghanistan,"Population, total",2021,40000412
+Afghanistan,"Population, total",2022,40578842
+Afghanistan,"Population, total",2023,41454761
+Afghanistan,"Population, total",2024,42647492
+Afghanistan,"Population, total",2025,43844111
+Afghanistan,"Population, total",...71,NA
+Afghanistan,GDP per capita (constant 2015 US$),1960,NA
+Afghanistan,GDP per capita (constant 2015 US$),1961,NA
+Afghanistan,GDP per capita (constant 2015 US$),1962,NA
+Afghanistan,GDP per capita (constant 2015 US$),1963,NA
+Afghanistan,GDP per capita (constant 2015 US$),1964,NA
+Afghanistan,GDP per capita (constant 2015 US$),1965,NA
+Afghanistan,GDP per capita (constant 2015 US$),1966,NA
+Afghanistan,GDP per capita (constant 2015 US$),1967,NA
+Afghanistan,GDP per capita (constant 2015 US$),1968,NA
+Afghanistan,GDP per capita (constant 2015 US$),1969,NA
+Afghanistan,GDP per capita (constant 2015 US$),1970,NA
+Afghanistan,GDP per capita (constant 2015 US$),1971,NA
+Afghanistan,GDP per capita (constant 2015 US$),1972,NA
+Afghanistan,GDP per capita (constant 2015 US$),1973,NA
+Afghanistan,GDP per capita (constant 2015 US$),1974,NA
+Afghanistan,GDP per capita (constant 2015 US$),1975,NA
+Afghanistan,GDP per capita (constant 2015 US$),1976,NA
+Afghanistan,GDP per capita (constant 2015 US$),1977,NA
+Afghanistan,GDP per capita (constant 2015 US$),1978,NA
+Afghanistan,GDP per capita (constant 2015 US$),1979,NA
+Afghanistan,GDP per capita (constant 2015 US$),1980,NA
+Afghanistan,GDP per capita (constant 2015 US$),1981,NA
+Afghanistan,GDP per capita (constant 2015 US$),1982,NA
+Afghanistan,GDP per capita (constant 2015 US$),1983,NA
+Afghanistan,GDP per capita (constant 2015 US$),1984,NA
+Afghanistan,GDP per capita (constant 2015 US$),1985,NA
+Afghanistan,GDP per capita (constant 2015 US$),1986,NA
+Afghanistan,GDP per capita (constant 2015 US$),1987,NA
+Afghanistan,GDP per capita (constant 2015 US$),1988,NA
+Afghanistan,GDP per capita (constant 2015 US$),1989,NA
+Afghanistan,GDP per capita (constant 2015 US$),1990,NA
+Afghanistan,GDP per capita (constant 2015 US$),1991,NA
+Afghanistan,GDP per capita (constant 2015 US$),1992,NA
+Afghanistan,GDP per capita (constant 2015 US$),1993,NA
+Afghanistan,GDP per capita (constant 2015 US$),1994,NA
+Afghanistan,GDP per capita (constant 2015 US$),1995,NA
+Afghanistan,GDP per capita (constant 2015 US$),1996,NA
+Afghanistan,GDP per capita (constant 2015 US$),1997,NA
+Afghanistan,GDP per capita (constant 2015 US$),1998,NA
+Afghanistan,GDP per capita (constant 2015 US$),1999,NA
+Afghanistan,GDP per capita (constant 2015 US$),2000,308.318269746638
+Afghanistan,GDP per capita (constant 2015 US$),2001,277.118051443941
+Afghanistan,GDP per capita (constant 2015 US$),2002,338.139973643387
+Afghanistan,GDP per capita (constant 2015 US$),2003,346.071627096223
+Afghanistan,GDP per capita (constant 2015 US$),2004,338.637273888197
+Afghanistan,GDP per capita (constant 2015 US$),2005,363.640141436773
+Afghanistan,GDP per capita (constant 2015 US$),2006,367.75831169358
+Afghanistan,GDP per capita (constant 2015 US$),2007,410.757728879097
+Afghanistan,GDP per capita (constant 2015 US$),2008,417.647282647498
+Afghanistan,GDP per capita (constant 2015 US$),2009,488.830652491949
+Afghanistan,GDP per capita (constant 2015 US$),2010,542.871030476037
+Afghanistan,GDP per capita (constant 2015 US$),2011,525.42698276582
+Afghanistan,GDP per capita (constant 2015 US$),2012,568.929021458341
+Afghanistan,GDP per capita (constant 2015 US$),2013,580.603833333096
+Afghanistan,GDP per capita (constant 2015 US$),2014,575.146245808546
+Afghanistan,GDP per capita (constant 2015 US$),2015,565.569730408751
+Afghanistan,GDP per capita (constant 2015 US$),2016,563.872336723147
+Afghanistan,GDP per capita (constant 2015 US$),2017,562.769574140988
+Afghanistan,GDP per capita (constant 2015 US$),2018,553.125151688293
+Afghanistan,GDP per capita (constant 2015 US$),2019,557.861533207459
+Afghanistan,GDP per capita (constant 2015 US$),2020,527.834554499306
+Afghanistan,GDP per capita (constant 2015 US$),2021,408.625855217403
+Afghanistan,GDP per capita (constant 2015 US$),2022,377.665627080705
+Afghanistan,GDP per capita (constant 2015 US$),2023,378.06630312259
+Afghanistan,GDP per capita (constant 2015 US$),2024,374.37669620849
+Afghanistan,GDP per capita (constant 2015 US$),2025,NA
+Afghanistan,GDP per capita (constant 2015 US$),...71,NA

@@ -1,0 +1,604 @@
+Country Name,Indicator Name,Year,Value
+"Yemen, Rep.","Life expectancy at birth, total (years)",1960,33.462
+"Yemen, Rep.","Life expectancy at birth, total (years)",1961,34.058
+"Yemen, Rep.","Life expectancy at birth, total (years)",1962,33.669
+"Yemen, Rep.","Life expectancy at birth, total (years)",1963,33.431
+"Yemen, Rep.","Life expectancy at birth, total (years)",1964,34.907
+"Yemen, Rep.","Life expectancy at birth, total (years)",1965,35.592
+"Yemen, Rep.","Life expectancy at birth, total (years)",1966,36.264
+"Yemen, Rep.","Life expectancy at birth, total (years)",1967,37.079
+"Yemen, Rep.","Life expectancy at birth, total (years)",1968,37.99
+"Yemen, Rep.","Life expectancy at birth, total (years)",1969,39.61
+"Yemen, Rep.","Life expectancy at birth, total (years)",1970,40.573
+"Yemen, Rep.","Life expectancy at birth, total (years)",1971,41.757
+"Yemen, Rep.","Life expectancy at birth, total (years)",1972,42.688
+"Yemen, Rep.","Life expectancy at birth, total (years)",1973,43.603
+"Yemen, Rep.","Life expectancy at birth, total (years)",1974,44.541
+"Yemen, Rep.","Life expectancy at birth, total (years)",1975,45.475
+"Yemen, Rep.","Life expectancy at birth, total (years)",1976,46.441
+"Yemen, Rep.","Life expectancy at birth, total (years)",1977,47.442
+"Yemen, Rep.","Life expectancy at birth, total (years)",1978,48.484
+"Yemen, Rep.","Life expectancy at birth, total (years)",1979,49.531
+"Yemen, Rep.","Life expectancy at birth, total (years)",1980,50.608
+"Yemen, Rep.","Life expectancy at birth, total (years)",1981,51.679
+"Yemen, Rep.","Life expectancy at birth, total (years)",1982,52.367
+"Yemen, Rep.","Life expectancy at birth, total (years)",1983,53.618
+"Yemen, Rep.","Life expectancy at birth, total (years)",1984,54.586
+"Yemen, Rep.","Life expectancy at birth, total (years)",1985,55.418
+"Yemen, Rep.","Life expectancy at birth, total (years)",1986,54.002
+"Yemen, Rep.","Life expectancy at birth, total (years)",1987,56.828
+"Yemen, Rep.","Life expectancy at birth, total (years)",1988,57.43
+"Yemen, Rep.","Life expectancy at birth, total (years)",1989,58.025
+"Yemen, Rep.","Life expectancy at birth, total (years)",1990,58.528
+"Yemen, Rep.","Life expectancy at birth, total (years)",1991,58.805
+"Yemen, Rep.","Life expectancy at birth, total (years)",1992,59.26
+"Yemen, Rep.","Life expectancy at birth, total (years)",1993,59.655
+"Yemen, Rep.","Life expectancy at birth, total (years)",1994,59.828
+"Yemen, Rep.","Life expectancy at birth, total (years)",1995,60.532
+"Yemen, Rep.","Life expectancy at birth, total (years)",1996,60.884
+"Yemen, Rep.","Life expectancy at birth, total (years)",1997,61.34
+"Yemen, Rep.","Life expectancy at birth, total (years)",1998,61.788
+"Yemen, Rep.","Life expectancy at birth, total (years)",1999,62.275
+"Yemen, Rep.","Life expectancy at birth, total (years)",2000,62.761
+"Yemen, Rep.","Life expectancy at birth, total (years)",2001,63.286
+"Yemen, Rep.","Life expectancy at birth, total (years)",2002,63.807
+"Yemen, Rep.","Life expectancy at birth, total (years)",2003,64.407
+"Yemen, Rep.","Life expectancy at birth, total (years)",2004,64.881
+"Yemen, Rep.","Life expectancy at birth, total (years)",2005,65.356
+"Yemen, Rep.","Life expectancy at birth, total (years)",2006,65.8
+"Yemen, Rep.","Life expectancy at birth, total (years)",2007,66.23
+"Yemen, Rep.","Life expectancy at birth, total (years)",2008,66.609
+"Yemen, Rep.","Life expectancy at birth, total (years)",2009,66.905
+"Yemen, Rep.","Life expectancy at birth, total (years)",2010,67.223
+"Yemen, Rep.","Life expectancy at birth, total (years)",2011,67.412
+"Yemen, Rep.","Life expectancy at birth, total (years)",2012,67.569
+"Yemen, Rep.","Life expectancy at birth, total (years)",2013,67.961
+"Yemen, Rep.","Life expectancy at birth, total (years)",2014,68.003
+"Yemen, Rep.","Life expectancy at birth, total (years)",2015,66.761
+"Yemen, Rep.","Life expectancy at birth, total (years)",2016,67.105
+"Yemen, Rep.","Life expectancy at birth, total (years)",2017,67.12
+"Yemen, Rep.","Life expectancy at birth, total (years)",2018,65.915
+"Yemen, Rep.","Life expectancy at birth, total (years)",2019,66.567
+"Yemen, Rep.","Life expectancy at birth, total (years)",2020,66.435
+"Yemen, Rep.","Life expectancy at birth, total (years)",2021,66.019
+"Yemen, Rep.","Life expectancy at birth, total (years)",2022,67.952
+"Yemen, Rep.","Life expectancy at birth, total (years)",2023,69.295
+"Yemen, Rep.","Life expectancy at birth, total (years)",2024,69.439
+"Yemen, Rep.","Life expectancy at birth, total (years)",2025,NA
+"Yemen, Rep.","Life expectancy at birth, total (years)",...71,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1960,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1961,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1962,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1963,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1964,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1965,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1966,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1967,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1968,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1969,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1970,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1971,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1972,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1973,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1974,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1975,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1976,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1977,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1978,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1979,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1980,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1981,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1982,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1983,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1984,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1985,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1986,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1987,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1988,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1989,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1990,1722.22439411789
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1991,1761.81146099568
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1992,1835.28111559428
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1993,1838.28268593285
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1994,1890.75509687978
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1995,1927.42298079078
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1996,1949.99754744654
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1997,1987.6265785116
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1998,2041.67107777046
+"Yemen, Rep.",GDP per capita (constant 2015 US$),1999,2053.79786274001
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2000,2114.67265566851
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2001,2129.77268762778
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2002,2148.88860494788
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2003,2164.86083019467
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2004,2185.78999159086
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2005,2237.63762643152
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2006,2234.74266863312
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2007,2235.75075901067
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2008,2244.04491655237
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2009,2257.46902086832
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2010,2356.19960422096
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2011,1994.83663337222
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2012,1981.45800046603
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2013,2014.7289059487
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2014,1950.1625450589
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2015,1362.1738120601
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2016,1197.95865971172
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2017,1103.45634849842
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2018,1079.32938366255
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2019,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2020,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2021,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2022,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2023,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2024,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),2025,NA
+"Yemen, Rep.",GDP per capita (constant 2015 US$),...71,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1960,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1961,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1962,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1963,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1964,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1965,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1966,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1967,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1968,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1969,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1970,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1971,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1972,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1973,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1974,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1975,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1976,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1977,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1978,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1979,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1980,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1981,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1982,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1983,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1984,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1985,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1986,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1987,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1988,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1989,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1990,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1991,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1992,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1993,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1994,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1995,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1996,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1997,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1998,3.33405390460404
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",1999,5.38114141156168
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2000,3.55174790967278
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2001,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2002,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2003,3.28107552537173
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2004,2.92371623795113
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2005,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2006,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2007,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2008,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2009,3.81830668627734
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2010,4.10773754599573
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2011,4.9849730254046
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2012,5.68340730819006
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2013,5.80971851623815
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2014,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2015,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2016,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2017,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2018,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2019,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2020,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2021,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2022,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2023,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2024,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",2025,NA
+"Yemen, Rep.","Intentional homicides (per 100,000 people)",...71,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1960,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1961,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1962,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1963,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1964,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1965,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1966,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1967,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1968,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1969,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1970,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1971,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1972,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1973,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1974,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1975,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1976,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1977,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1978,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1979,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1980,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1981,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1982,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1983,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1984,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1985,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1986,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1987,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1988,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1989,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1990,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1991,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1992,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1993,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1994,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1995,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1996,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1997,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1998,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1999,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2000,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2001,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2002,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2003,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2004,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2005,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2006,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2007,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2008,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2009,150000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2010,176000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2011,175000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2012,132000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2013,20000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2014,100000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2015,2175000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2016,478000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2017,160000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2018,252000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2019,398000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2020,143000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2021,377000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2022,276000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2023,80000
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2024,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2025,NA
+"Yemen, Rep.","Internally displaced persons, new displacement associated with conflict and violence (number of cases)",...71,NA
+"Yemen, Rep.","Population, total",1960,5532301
+"Yemen, Rep.","Population, total",1961,5655232
+"Yemen, Rep.","Population, total",1962,5782221
+"Yemen, Rep.","Population, total",1963,5911135
+"Yemen, Rep.","Population, total",1964,6048006
+"Yemen, Rep.","Population, total",1965,6195593
+"Yemen, Rep.","Population, total",1966,6351494
+"Yemen, Rep.","Population, total",1967,6516444
+"Yemen, Rep.","Population, total",1968,6690524
+"Yemen, Rep.","Population, total",1969,6875859
+"Yemen, Rep.","Population, total",1970,7065279
+"Yemen, Rep.","Population, total",1971,7257462
+"Yemen, Rep.","Population, total",1972,7460068
+"Yemen, Rep.","Population, total",1973,7672796
+"Yemen, Rep.","Population, total",1974,7896783
+"Yemen, Rep.","Population, total",1975,8133598
+"Yemen, Rep.","Population, total",1976,8384113
+"Yemen, Rep.","Population, total",1977,8648222
+"Yemen, Rep.","Population, total",1978,8926586
+"Yemen, Rep.","Population, total",1979,9224194
+"Yemen, Rep.","Population, total",1980,9543358
+"Yemen, Rep.","Population, total",1981,9882362
+"Yemen, Rep.","Population, total",1982,10241006
+"Yemen, Rep.","Population, total",1983,10621499
+"Yemen, Rep.","Population, total",1984,11025597
+"Yemen, Rep.","Population, total",1985,11453825
+"Yemen, Rep.","Population, total",1986,11901040
+"Yemen, Rep.","Population, total",1987,12369912
+"Yemen, Rep.","Population, total",1988,12859708
+"Yemen, Rep.","Population, total",1989,13364174
+"Yemen, Rep.","Population, total",1990,13887862
+"Yemen, Rep.","Population, total",1991,14430201
+"Yemen, Rep.","Population, total",1992,14989494
+"Yemen, Rep.","Population, total",1993,15563914
+"Yemen, Rep.","Population, total",1994,16149147
+"Yemen, Rep.","Population, total",1995,16740058
+"Yemen, Rep.","Population, total",1996,17313177
+"Yemen, Rep.","Population, total",1997,17873936
+"Yemen, Rep.","Population, total",1998,18446013
+"Yemen, Rep.","Population, total",1999,19029420
+"Yemen, Rep.","Population, total",2000,19624141
+"Yemen, Rep.","Population, total",2001,20226147
+"Yemen, Rep.","Population, total",2002,20835086
+"Yemen, Rep.","Population, total",2003,21456379
+"Yemen, Rep.","Population, total",2004,22095167
+"Yemen, Rep.","Population, total",2005,22790085
+"Yemen, Rep.","Population, total",2006,23543083
+"Yemen, Rep.","Population, total",2007,24318082
+"Yemen, Rep.","Population, total",2008,25111941
+"Yemen, Rep.","Population, total",2009,25927724
+"Yemen, Rep.","Population, total",2010,26754387
+"Yemen, Rep.","Population, total",2011,27582897
+"Yemen, Rep.","Population, total",2012,28433647
+"Yemen, Rep.","Population, total",2013,29312952
+"Yemen, Rep.","Population, total",2014,30226309
+"Yemen, Rep.","Population, total",2015,31159379
+"Yemen, Rep.","Population, total",2016,32109010
+"Yemen, Rep.","Population, total",2017,33090921
+"Yemen, Rep.","Population, total",2018,34085182
+"Yemen, Rep.","Population, total",2019,35111408
+"Yemen, Rep.","Population, total",2020,36134863
+"Yemen, Rep.","Population, total",2021,37140230
+"Yemen, Rep.","Population, total",2022,38222876
+"Yemen, Rep.","Population, total",2023,39390799
+"Yemen, Rep.","Population, total",2024,40583164
+"Yemen, Rep.","Population, total",2025,41773878
+"Yemen, Rep.","Population, total",...71,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1960,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1961,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1962,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1963,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1964,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1965,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1966,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1967,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1968,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1969,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1970,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1971,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1972,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1973,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1974,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1975,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1976,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1977,57.799
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1978,55.449
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1979,54.591
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1980,55.039
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1981,52.42
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1982,52.143
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1983,53.917
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1984,56.707
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1985,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1986,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1987,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1988,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1989,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1990,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1991,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1992,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1993,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1994,8.338
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1995,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1996,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1997,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1998,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",1999,11.464
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2000,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2001,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2002,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2003,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2004,16.233
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2005,16.05
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2006,15.701
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2007,15.333
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2008,14.971
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2009,14.627
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2010,17.821
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2011,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2012,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2013,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2014,13.467
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2015,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2016,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2017,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2018,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2019,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2020,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2021,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2022,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2023,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2024,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",2025,NA
+"Yemen, Rep.","Unemployment, total (% of total labor force) (national estimate)",...71,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1960,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1961,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1962,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1963,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1964,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1965,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1966,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1967,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1968,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1969,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1970,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1971,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1972,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1973,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1974,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1975,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1976,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1977,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1978,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1979,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1980,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1981,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1982,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1983,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1984,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1985,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1986,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1987,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1988,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1989,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1990,4.22492854215348
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1991,4.07758193611938
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1992,1.98211512744071
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1993,1.90870542650917
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1994,1.9805384825803
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1995,1.9015635777522
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1996,2.92158009485745
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1997,3.64096455945324
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1998,3.23520894750084
+"Yemen, Rep.",Armed forces personnel (% of total labor force),1999,3.08329534825063
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2000,3.0158937378717
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2001,2.68262743453848
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2002,2.88647585616257
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2003,2.82419169133961
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2004,2.74248342763645
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2005,2.70451259685536
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2006,2.61908634501376
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2007,2.53550021836536
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2008,2.45370062505356
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2009,2.37273519070838
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2010,2.29777995132839
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2011,2.25533979089942
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2012,2.21322203560254
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2013,2.17168398108257
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2014,0.308882360145403
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2015,0.344163824733884
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2016,0.330868199810644
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2017,0.637042289096798
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2018,0.307417712732289
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2019,0.593891940173702
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2020,0.580993888815781
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2021,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2022,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2023,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2024,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),2025,NA
+"Yemen, Rep.",Armed forces personnel (% of total labor force),...71,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1960,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1961,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1962,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1963,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1964,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1965,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1966,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1967,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1968,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1969,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1970,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1971,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1972,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1973,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1974,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1975,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1976,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1977,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1978,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1979,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1980,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1981,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1982,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1983,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1984,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1985,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1986,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1987,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1988,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1989,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1990,0
+"Yemen, Rep.",Individuals using the Internet (% of population),1991,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1992,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1993,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1994,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1995,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),1996,6.21e-4
+"Yemen, Rep.",Individuals using the Internet (% of population),1997,0.015
+"Yemen, Rep.",Individuals using the Internet (% of population),1998,0.0233
+"Yemen, Rep.",Individuals using the Internet (% of population),1999,0.0566
+"Yemen, Rep.",Individuals using the Internet (% of population),2000,0.0825003865143108
+"Yemen, Rep.",Individuals using the Internet (% of population),2001,0.0908024587169292
+"Yemen, Rep.",Individuals using the Internet (% of population),2002,0.518796032123435
+"Yemen, Rep.",Individuals using the Internet (% of population),2003,0.604734100431821
+"Yemen, Rep.",Individuals using the Internet (% of population),2004,0.881222988679516
+"Yemen, Rep.",Individuals using the Internet (% of population),2005,1.048599958
+"Yemen, Rep.",Individuals using the Internet (% of population),2006,1.24782404904485
+"Yemen, Rep.",Individuals using the Internet (% of population),2007,5.01
+"Yemen, Rep.",Individuals using the Internet (% of population),2008,6.89
+"Yemen, Rep.",Individuals using the Internet (% of population),2009,9.96
+"Yemen, Rep.",Individuals using the Internet (% of population),2010,12.35
+"Yemen, Rep.",Individuals using the Internet (% of population),2011,14.90499973
+"Yemen, Rep.",Individuals using the Internet (% of population),2012,17.44650078
+"Yemen, Rep.",Individuals using the Internet (% of population),2013,20
+"Yemen, Rep.",Individuals using the Internet (% of population),2014,22.549999239999998
+"Yemen, Rep.",Individuals using the Internet (% of population),2015,24.08539963
+"Yemen, Rep.",Individuals using the Internet (% of population),2016,24.57920074
+"Yemen, Rep.",Individuals using the Internet (% of population),2017,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2018,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2019,17.49099922
+"Yemen, Rep.",Individuals using the Internet (% of population),2020,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2021,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2022,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2023,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2024,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),2025,NA
+"Yemen, Rep.",Individuals using the Internet (% of population),...71,NA
+"Yemen, Rep.",Access to electricity (% of population),1960,NA
+"Yemen, Rep.",Access to electricity (% of population),1961,NA
+"Yemen, Rep.",Access to electricity (% of population),1962,NA
+"Yemen, Rep.",Access to electricity (% of population),1963,NA
+"Yemen, Rep.",Access to electricity (% of population),1964,NA
+"Yemen, Rep.",Access to electricity (% of population),1965,NA
+"Yemen, Rep.",Access to electricity (% of population),1966,NA
+"Yemen, Rep.",Access to electricity (% of population),1967,NA
+"Yemen, Rep.",Access to electricity (% of population),1968,NA
+"Yemen, Rep.",Access to electricity (% of population),1969,NA
+"Yemen, Rep.",Access to electricity (% of population),1970,NA
+"Yemen, Rep.",Access to electricity (% of population),1971,NA
+"Yemen, Rep.",Access to electricity (% of population),1972,NA
+"Yemen, Rep.",Access to electricity (% of population),1973,NA
+"Yemen, Rep.",Access to electricity (% of population),1974,NA
+"Yemen, Rep.",Access to electricity (% of population),1975,NA
+"Yemen, Rep.",Access to electricity (% of population),1976,NA
+"Yemen, Rep.",Access to electricity (% of population),1977,NA
+"Yemen, Rep.",Access to electricity (% of population),1978,NA
+"Yemen, Rep.",Access to electricity (% of population),1979,NA
+"Yemen, Rep.",Access to electricity (% of population),1980,NA
+"Yemen, Rep.",Access to electricity (% of population),1981,NA
+"Yemen, Rep.",Access to electricity (% of population),1982,NA
+"Yemen, Rep.",Access to electricity (% of population),1983,NA
+"Yemen, Rep.",Access to electricity (% of population),1984,NA
+"Yemen, Rep.",Access to electricity (% of population),1985,NA
+"Yemen, Rep.",Access to electricity (% of population),1986,NA
+"Yemen, Rep.",Access to electricity (% of population),1987,NA
+"Yemen, Rep.",Access to electricity (% of population),1988,NA
+"Yemen, Rep.",Access to electricity (% of population),1989,NA
+"Yemen, Rep.",Access to electricity (% of population),1990,NA
+"Yemen, Rep.",Access to electricity (% of population),1991,NA
+"Yemen, Rep.",Access to electricity (% of population),1992,44.1
+"Yemen, Rep.",Access to electricity (% of population),1993,40.774715423584
+"Yemen, Rep.",Access to electricity (% of population),1994,41.9851341247559
+"Yemen, Rep.",Access to electricity (% of population),1995,43.1935119628906
+"Yemen, Rep.",Access to electricity (% of population),1996,44.399169921875
+"Yemen, Rep.",Access to electricity (% of population),1997,42.6
+"Yemen, Rep.",Access to electricity (% of population),1998,46.7996101379395
+"Yemen, Rep.",Access to electricity (% of population),1999,47.9929466247559
+"Yemen, Rep.",Access to electricity (% of population),2000,49.2
+"Yemen, Rep.",Access to electricity (% of population),2001,50.4
+"Yemen, Rep.",Access to electricity (% of population),2002,51.5
+"Yemen, Rep.",Access to electricity (% of population),2003,52.6
+"Yemen, Rep.",Access to electricity (% of population),2004,49.6
+"Yemen, Rep.",Access to electricity (% of population),2005,54.8
+"Yemen, Rep.",Access to electricity (% of population),2006,55.8
+"Yemen, Rep.",Access to electricity (% of population),2007,57.2
+"Yemen, Rep.",Access to electricity (% of population),2008,58.4
+"Yemen, Rep.",Access to electricity (% of population),2009,59.6
+"Yemen, Rep.",Access to electricity (% of population),2010,60.8
+"Yemen, Rep.",Access to electricity (% of population),2011,62
+"Yemen, Rep.",Access to electricity (% of population),2012,52.4
+"Yemen, Rep.",Access to electricity (% of population),2013,75.6
+"Yemen, Rep.",Access to electricity (% of population),2014,66.1
+"Yemen, Rep.",Access to electricity (% of population),2015,67.4
+"Yemen, Rep.",Access to electricity (% of population),2016,68.9
+"Yemen, Rep.",Access to electricity (% of population),2017,79.2
+"Yemen, Rep.",Access to electricity (% of population),2018,62
+"Yemen, Rep.",Access to electricity (% of population),2019,72.8
+"Yemen, Rep.",Access to electricity (% of population),2020,73.9
+"Yemen, Rep.",Access to electricity (% of population),2021,74.9
+"Yemen, Rep.",Access to electricity (% of population),2022,76
+"Yemen, Rep.",Access to electricity (% of population),2023,83.6
+"Yemen, Rep.",Access to electricity (% of population),2024,86.3
+"Yemen, Rep.",Access to electricity (% of population),2025,NA
+"Yemen, Rep.",Access to electricity (% of population),...71,NA

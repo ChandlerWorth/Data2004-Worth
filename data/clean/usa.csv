@@ -1,0 +1,604 @@
+Country Name,Indicator Name,Year,Value
+United States,"Population, total",1960,180671000
+United States,"Population, total",1961,183691000
+United States,"Population, total",1962,186538000
+United States,"Population, total",1963,189242000
+United States,"Population, total",1964,191889000
+United States,"Population, total",1965,194303000
+United States,"Population, total",1966,196560000
+United States,"Population, total",1967,198712000
+United States,"Population, total",1968,200706000
+United States,"Population, total",1969,202677000
+United States,"Population, total",1970,205052000
+United States,"Population, total",1971,207661000
+United States,"Population, total",1972,209896000
+United States,"Population, total",1973,211909000
+United States,"Population, total",1974,213854000
+United States,"Population, total",1975,215973000
+United States,"Population, total",1976,218035000
+United States,"Population, total",1977,220239000
+United States,"Population, total",1978,222585000
+United States,"Population, total",1979,225055000
+United States,"Population, total",1980,227225000
+United States,"Population, total",1981,229466000
+United States,"Population, total",1982,231664000
+United States,"Population, total",1983,233792000
+United States,"Population, total",1984,235825000
+United States,"Population, total",1985,237924000
+United States,"Population, total",1986,240133000
+United States,"Population, total",1987,242289000
+United States,"Population, total",1988,244499000
+United States,"Population, total",1989,246819000
+United States,"Population, total",1990,249623000
+United States,"Population, total",1991,252981000
+United States,"Population, total",1992,256514000
+United States,"Population, total",1993,259919000
+United States,"Population, total",1994,263126000
+United States,"Population, total",1995,266278000
+United States,"Population, total",1996,269394000
+United States,"Population, total",1997,272657000
+United States,"Population, total",1998,275854000
+United States,"Population, total",1999,279040000
+United States,"Population, total",2000,282162411
+United States,"Population, total",2001,284968955
+United States,"Population, total",2002,287625193
+United States,"Population, total",2003,290107933
+United States,"Population, total",2004,292805298
+United States,"Population, total",2005,295516599
+United States,"Population, total",2006,298379912
+United States,"Population, total",2007,301231207
+United States,"Population, total",2008,304093966
+United States,"Population, total",2009,306771529
+United States,"Population, total",2010,309378227
+United States,"Population, total",2011,311839461
+United States,"Population, total",2012,314339099
+United States,"Population, total",2013,316726282
+United States,"Population, total",2014,319257560
+United States,"Population, total",2015,321815121
+United States,"Population, total",2016,324353340
+United States,"Population, total",2017,326608609
+United States,"Population, total",2018,328529577
+United States,"Population, total",2019,330226227
+United States,"Population, total",2020,331578104
+United States,"Population, total",2021,332100166
+United States,"Population, total",2022,333996304
+United States,"Population, total",2023,336755052
+United States,"Population, total",2024,340003797
+United States,"Population, total",2025,341784857
+United States,"Population, total",...71,NA
+United States,"Life expectancy at birth, total (years)",1960,69.7707317073171
+United States,"Life expectancy at birth, total (years)",1961,70.2707317073171
+United States,"Life expectancy at birth, total (years)",1962,70.119512195122
+United States,"Life expectancy at birth, total (years)",1963,69.9170731707317
+United States,"Life expectancy at birth, total (years)",1964,70.1658536585366
+United States,"Life expectancy at birth, total (years)",1965,70.2146341463415
+United States,"Life expectancy at birth, total (years)",1966,70.2121951219512
+United States,"Life expectancy at birth, total (years)",1967,70.5609756097561
+United States,"Life expectancy at birth, total (years)",1968,69.9512195121951
+United States,"Life expectancy at birth, total (years)",1969,70.5073170731708
+United States,"Life expectancy at birth, total (years)",1970,70.8073170731707
+United States,"Life expectancy at birth, total (years)",1971,71.1073170731707
+United States,"Life expectancy at birth, total (years)",1972,71.1560975609756
+United States,"Life expectancy at birth, total (years)",1973,71.3560975609756
+United States,"Life expectancy at birth, total (years)",1974,71.9560975609756
+United States,"Life expectancy at birth, total (years)",1975,72.6048780487805
+United States,"Life expectancy at birth, total (years)",1976,72.8560975609756
+United States,"Life expectancy at birth, total (years)",1977,73.2560975609756
+United States,"Life expectancy at birth, total (years)",1978,73.3560975609756
+United States,"Life expectancy at birth, total (years)",1979,73.8048780487805
+United States,"Life expectancy at birth, total (years)",1980,73.609756097561
+United States,"Life expectancy at birth, total (years)",1981,74.009756097561
+United States,"Life expectancy at birth, total (years)",1982,74.3609756097561
+United States,"Life expectancy at birth, total (years)",1983,74.4634146341463
+United States,"Life expectancy at birth, total (years)",1984,74.5634146341464
+United States,"Life expectancy at birth, total (years)",1985,74.5634146341464
+United States,"Life expectancy at birth, total (years)",1986,74.6146341463415
+United States,"Life expectancy at birth, total (years)",1987,74.7658536585366
+United States,"Life expectancy at birth, total (years)",1988,74.7658536585366
+United States,"Life expectancy at birth, total (years)",1989,75.0170731707317
+United States,"Life expectancy at birth, total (years)",1990,75.2146341463415
+United States,"Life expectancy at birth, total (years)",1991,75.3658536585366
+United States,"Life expectancy at birth, total (years)",1992,75.6170731707317
+United States,"Life expectancy at birth, total (years)",1993,75.419512195122
+United States,"Life expectancy at birth, total (years)",1994,75.619512195122
+United States,"Life expectancy at birth, total (years)",1995,75.6219512195122
+United States,"Life expectancy at birth, total (years)",1996,76.0268292682927
+United States,"Life expectancy at birth, total (years)",1997,76.4292682926829
+United States,"Life expectancy at birth, total (years)",1998,76.5804878048781
+United States,"Life expectancy at birth, total (years)",1999,76.5829268292683
+United States,"Life expectancy at birth, total (years)",2000,76.6365853658537
+United States,"Life expectancy at birth, total (years)",2001,76.8365853658537
+United States,"Life expectancy at birth, total (years)",2002,76.9365853658537
+United States,"Life expectancy at birth, total (years)",2003,77.0365853658537
+United States,"Life expectancy at birth, total (years)",2004,77.4878048780488
+United States,"Life expectancy at birth, total (years)",2005,77.4878048780488
+United States,"Life expectancy at birth, total (years)",2006,77.6878048780488
+United States,"Life expectancy at birth, total (years)",2007,77.9878048780488
+United States,"Life expectancy at birth, total (years)",2008,78.0390243902439
+United States,"Life expectancy at birth, total (years)",2009,78.390243902439
+United States,"Life expectancy at birth, total (years)",2010,78.5414634146342
+United States,"Life expectancy at birth, total (years)",2011,78.6414634146341
+United States,"Life expectancy at birth, total (years)",2012,78.7414634146342
+United States,"Life expectancy at birth, total (years)",2013,78.7414634146342
+United States,"Life expectancy at birth, total (years)",2014,78.8414634146341
+United States,"Life expectancy at birth, total (years)",2015,78.690243902439
+United States,"Life expectancy at birth, total (years)",2016,78.5390243902439
+United States,"Life expectancy at birth, total (years)",2017,78.5390243902439
+United States,"Life expectancy at birth, total (years)",2018,78.6390243902439
+United States,"Life expectancy at birth, total (years)",2019,78.7878048780488
+United States,"Life expectancy at birth, total (years)",2020,76.9804878048781
+United States,"Life expectancy at birth, total (years)",2021,76.3292682926829
+United States,"Life expectancy at birth, total (years)",2022,77.4341463414634
+United States,"Life expectancy at birth, total (years)",2023,78.3853658536585
+United States,"Life expectancy at birth, total (years)",2024,78.890243902439
+United States,"Life expectancy at birth, total (years)",2025,NA
+United States,"Life expectancy at birth, total (years)",...71,NA
+United States,"Unemployment, total (% of total labor force) (national estimate)",1960,5.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1961,6.7
+United States,"Unemployment, total (% of total labor force) (national estimate)",1962,5.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1963,5.7
+United States,"Unemployment, total (% of total labor force) (national estimate)",1964,5.2
+United States,"Unemployment, total (% of total labor force) (national estimate)",1965,4.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1966,3.8
+United States,"Unemployment, total (% of total labor force) (national estimate)",1967,3.8
+United States,"Unemployment, total (% of total labor force) (national estimate)",1968,3.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1969,3.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1970,4.9
+United States,"Unemployment, total (% of total labor force) (national estimate)",1971,5.9
+United States,"Unemployment, total (% of total labor force) (national estimate)",1972,5.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1973,4.9
+United States,"Unemployment, total (% of total labor force) (national estimate)",1974,5.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1975,8.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1976,7.7
+United States,"Unemployment, total (% of total labor force) (national estimate)",1977,7.1
+United States,"Unemployment, total (% of total labor force) (national estimate)",1978,6.1
+United States,"Unemployment, total (% of total labor force) (national estimate)",1979,5.8
+United States,"Unemployment, total (% of total labor force) (national estimate)",1980,7.1
+United States,"Unemployment, total (% of total labor force) (national estimate)",1981,7.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1982,9.7
+United States,"Unemployment, total (% of total labor force) (national estimate)",1983,9.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1984,7.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1985,7.2
+United States,"Unemployment, total (% of total labor force) (national estimate)",1986,7
+United States,"Unemployment, total (% of total labor force) (national estimate)",1987,6.2
+United States,"Unemployment, total (% of total labor force) (national estimate)",1988,5.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1989,5.3
+United States,"Unemployment, total (% of total labor force) (national estimate)",1990,5.6
+United States,"Unemployment, total (% of total labor force) (national estimate)",1991,6.8
+United States,"Unemployment, total (% of total labor force) (national estimate)",1992,7.5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1993,6.9
+United States,"Unemployment, total (% of total labor force) (national estimate)",1994,6.119
+United States,"Unemployment, total (% of total labor force) (national estimate)",1995,5.65
+United States,"Unemployment, total (% of total labor force) (national estimate)",1996,5.451
+United States,"Unemployment, total (% of total labor force) (national estimate)",1997,5
+United States,"Unemployment, total (% of total labor force) (national estimate)",1998,4.511
+United States,"Unemployment, total (% of total labor force) (national estimate)",1999,4.219
+United States,"Unemployment, total (% of total labor force) (national estimate)",2000,3.992
+United States,"Unemployment, total (% of total labor force) (national estimate)",2001,4.731
+United States,"Unemployment, total (% of total labor force) (national estimate)",2002,5.783
+United States,"Unemployment, total (% of total labor force) (national estimate)",2003,5.989
+United States,"Unemployment, total (% of total labor force) (national estimate)",2004,5.529
+United States,"Unemployment, total (% of total labor force) (national estimate)",2005,5.084
+United States,"Unemployment, total (% of total labor force) (national estimate)",2006,4.623
+United States,"Unemployment, total (% of total labor force) (national estimate)",2007,4.622
+United States,"Unemployment, total (% of total labor force) (national estimate)",2008,5.784
+United States,"Unemployment, total (% of total labor force) (national estimate)",2009,9.254
+United States,"Unemployment, total (% of total labor force) (national estimate)",2010,9.633
+United States,"Unemployment, total (% of total labor force) (national estimate)",2011,8.949
+United States,"Unemployment, total (% of total labor force) (national estimate)",2012,8.069
+United States,"Unemployment, total (% of total labor force) (national estimate)",2013,7.375
+United States,"Unemployment, total (% of total labor force) (national estimate)",2014,6.168
+United States,"Unemployment, total (% of total labor force) (national estimate)",2015,5.28
+United States,"Unemployment, total (% of total labor force) (national estimate)",2016,4.869
+United States,"Unemployment, total (% of total labor force) (national estimate)",2017,4.355
+United States,"Unemployment, total (% of total labor force) (national estimate)",2018,3.896
+United States,"Unemployment, total (% of total labor force) (national estimate)",2019,3.669
+United States,"Unemployment, total (% of total labor force) (national estimate)",2020,8.055
+United States,"Unemployment, total (% of total labor force) (national estimate)",2021,5.349
+United States,"Unemployment, total (% of total labor force) (national estimate)",2022,3.65
+United States,"Unemployment, total (% of total labor force) (national estimate)",2023,3.638
+United States,"Unemployment, total (% of total labor force) (national estimate)",2024,4.022
+United States,"Unemployment, total (% of total labor force) (national estimate)",2025,4.282
+United States,"Unemployment, total (% of total labor force) (national estimate)",...71,NA
+United States,Armed forces personnel (% of total labor force),1960,NA
+United States,Armed forces personnel (% of total labor force),1961,NA
+United States,Armed forces personnel (% of total labor force),1962,NA
+United States,Armed forces personnel (% of total labor force),1963,NA
+United States,Armed forces personnel (% of total labor force),1964,NA
+United States,Armed forces personnel (% of total labor force),1965,NA
+United States,Armed forces personnel (% of total labor force),1966,NA
+United States,Armed forces personnel (% of total labor force),1967,NA
+United States,Armed forces personnel (% of total labor force),1968,NA
+United States,Armed forces personnel (% of total labor force),1969,NA
+United States,Armed forces personnel (% of total labor force),1970,NA
+United States,Armed forces personnel (% of total labor force),1971,NA
+United States,Armed forces personnel (% of total labor force),1972,NA
+United States,Armed forces personnel (% of total labor force),1973,NA
+United States,Armed forces personnel (% of total labor force),1974,NA
+United States,Armed forces personnel (% of total labor force),1975,NA
+United States,Armed forces personnel (% of total labor force),1976,NA
+United States,Armed forces personnel (% of total labor force),1977,NA
+United States,Armed forces personnel (% of total labor force),1978,NA
+United States,Armed forces personnel (% of total labor force),1979,NA
+United States,Armed forces personnel (% of total labor force),1980,NA
+United States,Armed forces personnel (% of total labor force),1981,NA
+United States,Armed forces personnel (% of total labor force),1982,NA
+United States,Armed forces personnel (% of total labor force),1983,NA
+United States,Armed forces personnel (% of total labor force),1984,NA
+United States,Armed forces personnel (% of total labor force),1985,NA
+United States,Armed forces personnel (% of total labor force),1986,NA
+United States,Armed forces personnel (% of total labor force),1987,NA
+United States,Armed forces personnel (% of total labor force),1988,NA
+United States,Armed forces personnel (% of total labor force),1989,NA
+United States,Armed forces personnel (% of total labor force),1990,1.70550449855758
+United States,Armed forces personnel (% of total labor force),1991,1.64672197658835
+United States,Armed forces personnel (% of total labor force),1992,1.46729092151342
+United States,Armed forces personnel (% of total labor force),1993,1.37600463837555
+United States,Armed forces personnel (% of total labor force),1994,1.27775285705725
+United States,Armed forces personnel (% of total labor force),1995,1.19717922440529
+United States,Armed forces personnel (% of total labor force),1996,1.13283546844224
+United States,Armed forces personnel (% of total labor force),1997,1.08469787637619
+United States,Armed forces personnel (% of total labor force),1998,1.11392364018505
+United States,Armed forces personnel (% of total labor force),1999,1.08558486391149
+United States,Armed forces personnel (% of total labor force),2000,0.988718986850928
+United States,Armed forces personnel (% of total labor force),2001,0.958549853802087
+United States,Armed forces personnel (% of total labor force),2002,0.982967952799045
+United States,Armed forces personnel (% of total labor force),2003,0.986717153694364
+United States,Armed forces personnel (% of total labor force),2004,0.974089574420463
+United States,Armed forces personnel (% of total labor force),2005,1.00966174450688
+United States,Armed forces personnel (% of total labor force),2006,0.964789399033199
+United States,Armed forces personnel (% of total labor force),2007,0.993045704127071
+United States,Armed forces personnel (% of total labor force),2008,0.973003051027976
+United States,Armed forces personnel (% of total labor force),2009,0.98766325865978
+United States,Armed forces personnel (% of total labor force),2010,0.991230553105963
+United States,Armed forces personnel (% of total labor force),2011,0.958828892786328
+United States,Armed forces personnel (% of total labor force),2012,0.934477876893818
+United States,Armed forces personnel (% of total labor force),2013,0.894977803470118
+United States,Armed forces personnel (% of total labor force),2014,0.858578755130859
+United States,Armed forces personnel (% of total labor force),2015,0.832039451157061
+United States,Armed forces personnel (% of total labor force),2016,0.822764756106508
+United States,Armed forces personnel (% of total labor force),2017,0.820665475037047
+United States,Armed forces personnel (% of total labor force),2018,0.82621761050921
+United States,Armed forces personnel (% of total labor force),2019,0.821688240896544
+United States,Armed forces personnel (% of total labor force),2020,0.837509609522221
+United States,Armed forces personnel (% of total labor force),2021,NA
+United States,Armed forces personnel (% of total labor force),2022,NA
+United States,Armed forces personnel (% of total labor force),2023,NA
+United States,Armed forces personnel (% of total labor force),2024,NA
+United States,Armed forces personnel (% of total labor force),2025,NA
+United States,Armed forces personnel (% of total labor force),...71,NA
+United States,Individuals using the Internet (% of population),1960,NA
+United States,Individuals using the Internet (% of population),1961,NA
+United States,Individuals using the Internet (% of population),1962,NA
+United States,Individuals using the Internet (% of population),1963,NA
+United States,Individuals using the Internet (% of population),1964,NA
+United States,Individuals using the Internet (% of population),1965,NA
+United States,Individuals using the Internet (% of population),1966,NA
+United States,Individuals using the Internet (% of population),1967,NA
+United States,Individuals using the Internet (% of population),1968,NA
+United States,Individuals using the Internet (% of population),1969,NA
+United States,Individuals using the Internet (% of population),1970,NA
+United States,Individuals using the Internet (% of population),1971,NA
+United States,Individuals using the Internet (% of population),1972,NA
+United States,Individuals using the Internet (% of population),1973,NA
+United States,Individuals using the Internet (% of population),1974,NA
+United States,Individuals using the Internet (% of population),1975,NA
+United States,Individuals using the Internet (% of population),1976,NA
+United States,Individuals using the Internet (% of population),1977,NA
+United States,Individuals using the Internet (% of population),1978,NA
+United States,Individuals using the Internet (% of population),1979,NA
+United States,Individuals using the Internet (% of population),1980,NA
+United States,Individuals using the Internet (% of population),1981,NA
+United States,Individuals using the Internet (% of population),1982,NA
+United States,Individuals using the Internet (% of population),1983,NA
+United States,Individuals using the Internet (% of population),1984,NA
+United States,Individuals using the Internet (% of population),1985,NA
+United States,Individuals using the Internet (% of population),1986,NA
+United States,Individuals using the Internet (% of population),1987,NA
+United States,Individuals using the Internet (% of population),1988,NA
+United States,Individuals using the Internet (% of population),1989,NA
+United States,Individuals using the Internet (% of population),1990,0.785
+United States,Individuals using the Internet (% of population),1991,1.16
+United States,Individuals using the Internet (% of population),1992,1.72
+United States,Individuals using the Internet (% of population),1993,2.27
+United States,Individuals using the Internet (% of population),1994,4.86
+United States,Individuals using the Internet (% of population),1995,9.24
+United States,Individuals using the Internet (% of population),1996,16.4
+United States,Individuals using the Internet (% of population),1997,21.6
+United States,Individuals using the Internet (% of population),1998,30.1
+United States,Individuals using the Internet (% of population),1999,35.8
+United States,Individuals using the Internet (% of population),2000,43.0791626375201
+United States,Individuals using the Internet (% of population),2001,49.0808315896951
+United States,Individuals using the Internet (% of population),2002,58.7854038836952
+United States,Individuals using the Internet (% of population),2003,61.6971171244207
+United States,Individuals using the Internet (% of population),2004,64.7582564759896
+United States,Individuals using the Internet (% of population),2005,67.9681015
+United States,Individuals using the Internet (% of population),2006,68.93119812
+United States,Individuals using the Internet (% of population),2007,75
+United States,Individuals using the Internet (% of population),2008,74
+United States,Individuals using the Internet (% of population),2009,71
+United States,Individuals using the Internet (% of population),2010,71.69
+United States,Individuals using the Internet (% of population),2011,69.7294607619268
+United States,Individuals using the Internet (% of population),2012,74.7
+United States,Individuals using the Internet (% of population),2013,71.4
+United States,Individuals using the Internet (% of population),2014,73
+United States,Individuals using the Internet (% of population),2015,74.5542024462761
+United States,Individuals using the Internet (% of population),2016,85.5444212887222
+United States,Individuals using the Internet (% of population),2017,87.2748891687657
+United States,Individuals using the Internet (% of population),2018,88.498903165152
+United States,Individuals using the Internet (% of population),2019,89.4302848575712
+United States,Individuals using the Internet (% of population),2020,90.34470367
+United States,Individuals using the Internet (% of population),2021,91.2684021
+United States,Individuals using the Internet (% of population),2022,92.72850037
+United States,Individuals using the Internet (% of population),2023,93.52559662
+United States,Individuals using the Internet (% of population),2024,94.69380188
+United States,Individuals using the Internet (% of population),2025,NA
+United States,Individuals using the Internet (% of population),...71,NA
+United States,Access to electricity (% of population),1960,NA
+United States,Access to electricity (% of population),1961,NA
+United States,Access to electricity (% of population),1962,NA
+United States,Access to electricity (% of population),1963,NA
+United States,Access to electricity (% of population),1964,NA
+United States,Access to electricity (% of population),1965,NA
+United States,Access to electricity (% of population),1966,NA
+United States,Access to electricity (% of population),1967,NA
+United States,Access to electricity (% of population),1968,NA
+United States,Access to electricity (% of population),1969,NA
+United States,Access to electricity (% of population),1970,NA
+United States,Access to electricity (% of population),1971,NA
+United States,Access to electricity (% of population),1972,NA
+United States,Access to electricity (% of population),1973,NA
+United States,Access to electricity (% of population),1974,NA
+United States,Access to electricity (% of population),1975,NA
+United States,Access to electricity (% of population),1976,NA
+United States,Access to electricity (% of population),1977,NA
+United States,Access to electricity (% of population),1978,NA
+United States,Access to electricity (% of population),1979,NA
+United States,Access to electricity (% of population),1980,NA
+United States,Access to electricity (% of population),1981,NA
+United States,Access to electricity (% of population),1982,NA
+United States,Access to electricity (% of population),1983,NA
+United States,Access to electricity (% of population),1984,NA
+United States,Access to electricity (% of population),1985,NA
+United States,Access to electricity (% of population),1986,NA
+United States,Access to electricity (% of population),1987,NA
+United States,Access to electricity (% of population),1988,NA
+United States,Access to electricity (% of population),1989,NA
+United States,Access to electricity (% of population),1990,100
+United States,Access to electricity (% of population),1991,100
+United States,Access to electricity (% of population),1992,100
+United States,Access to electricity (% of population),1993,100
+United States,Access to electricity (% of population),1994,100
+United States,Access to electricity (% of population),1995,100
+United States,Access to electricity (% of population),1996,100
+United States,Access to electricity (% of population),1997,100
+United States,Access to electricity (% of population),1998,100
+United States,Access to electricity (% of population),1999,100
+United States,Access to electricity (% of population),2000,100
+United States,Access to electricity (% of population),2001,100
+United States,Access to electricity (% of population),2002,100
+United States,Access to electricity (% of population),2003,100
+United States,Access to electricity (% of population),2004,100
+United States,Access to electricity (% of population),2005,100
+United States,Access to electricity (% of population),2006,100
+United States,Access to electricity (% of population),2007,100
+United States,Access to electricity (% of population),2008,100
+United States,Access to electricity (% of population),2009,100
+United States,Access to electricity (% of population),2010,100
+United States,Access to electricity (% of population),2011,100
+United States,Access to electricity (% of population),2012,100
+United States,Access to electricity (% of population),2013,100
+United States,Access to electricity (% of population),2014,100
+United States,Access to electricity (% of population),2015,100
+United States,Access to electricity (% of population),2016,100
+United States,Access to electricity (% of population),2017,100
+United States,Access to electricity (% of population),2018,100
+United States,Access to electricity (% of population),2019,100
+United States,Access to electricity (% of population),2020,100
+United States,Access to electricity (% of population),2021,100
+United States,Access to electricity (% of population),2022,100
+United States,Access to electricity (% of population),2023,100
+United States,Access to electricity (% of population),2024,100
+United States,Access to electricity (% of population),2025,NA
+United States,Access to electricity (% of population),...71,NA
+United States,"Intentional homicides (per 100,000 people)",1960,NA
+United States,"Intentional homicides (per 100,000 people)",1961,NA
+United States,"Intentional homicides (per 100,000 people)",1962,NA
+United States,"Intentional homicides (per 100,000 people)",1963,NA
+United States,"Intentional homicides (per 100,000 people)",1964,NA
+United States,"Intentional homicides (per 100,000 people)",1965,NA
+United States,"Intentional homicides (per 100,000 people)",1966,NA
+United States,"Intentional homicides (per 100,000 people)",1967,NA
+United States,"Intentional homicides (per 100,000 people)",1968,NA
+United States,"Intentional homicides (per 100,000 people)",1969,NA
+United States,"Intentional homicides (per 100,000 people)",1970,NA
+United States,"Intentional homicides (per 100,000 people)",1971,NA
+United States,"Intentional homicides (per 100,000 people)",1972,NA
+United States,"Intentional homicides (per 100,000 people)",1973,NA
+United States,"Intentional homicides (per 100,000 people)",1974,NA
+United States,"Intentional homicides (per 100,000 people)",1975,NA
+United States,"Intentional homicides (per 100,000 people)",1976,NA
+United States,"Intentional homicides (per 100,000 people)",1977,NA
+United States,"Intentional homicides (per 100,000 people)",1978,NA
+United States,"Intentional homicides (per 100,000 people)",1979,NA
+United States,"Intentional homicides (per 100,000 people)",1980,NA
+United States,"Intentional homicides (per 100,000 people)",1981,NA
+United States,"Intentional homicides (per 100,000 people)",1982,NA
+United States,"Intentional homicides (per 100,000 people)",1983,NA
+United States,"Intentional homicides (per 100,000 people)",1984,NA
+United States,"Intentional homicides (per 100,000 people)",1985,NA
+United States,"Intentional homicides (per 100,000 people)",1986,NA
+United States,"Intentional homicides (per 100,000 people)",1987,NA
+United States,"Intentional homicides (per 100,000 people)",1988,NA
+United States,"Intentional homicides (per 100,000 people)",1989,NA
+United States,"Intentional homicides (per 100,000 people)",1990,9.25037955939706
+United States,"Intentional homicides (per 100,000 people)",1991,9.63187233852536
+United States,"Intentional homicides (per 100,000 people)",1992,9.15233015234456
+United States,"Intentional homicides (per 100,000 people)",1993,9.33849837151796
+United States,"Intentional homicides (per 100,000 people)",1994,8.78652102623221
+United States,"Intentional homicides (per 100,000 people)",1995,8.05575436588861
+United States,"Intentional homicides (per 100,000 people)",1996,7.25280570053619
+United States,"Intentional homicides (per 100,000 people)",1997,6.65818273718576
+United States,"Intentional homicides (per 100,000 people)",1998,6.14734210977422
+United States,"Intentional homicides (per 100,000 people)",1999,5.56772173977322
+United States,"Intentional homicides (per 100,000 people)",2000,5.53707946956534
+United States,"Intentional homicides (per 100,000 people)",2001,6.69516821550341
+United States,"Intentional homicides (per 100,000 people)",2002,5.65304262610104
+United States,"Intentional homicides (per 100,000 people)",2003,NA
+United States,"Intentional homicides (per 100,000 people)",2004,NA
+United States,"Intentional homicides (per 100,000 people)",2005,NA
+United States,"Intentional homicides (per 100,000 people)",2006,5.79419136382991
+United States,"Intentional homicides (per 100,000 people)",2007,5.67445011466685
+United States,"Intentional homicides (per 100,000 people)",2008,5.39888580801544
+United States,"Intentional homicides (per 100,000 people)",2009,4.9992946235203
+United States,"Intentional homicides (per 100,000 people)",2010,4.73280651793807
+United States,"Intentional homicides (per 100,000 people)",2011,4.66754631709583
+United States,"Intentional homicides (per 100,000 people)",2012,4.68473058437162
+United States,"Intentional homicides (per 100,000 people)",2013,4.47313924865612
+United States,"Intentional homicides (per 100,000 people)",2014,4.38357348743573
+United States,"Intentional homicides (per 100,000 people)",2015,4.87019612648983
+United States,"Intentional homicides (per 100,000 people)",2016,5.28982026159524
+United States,"Intentional homicides (per 100,000 people)",2017,5.20582704229048
+United States,"Intentional homicides (per 100,000 people)",2018,4.88693701574911
+United States,"Intentional homicides (per 100,000 people)",2019,4.93472178525416
+United States,"Intentional homicides (per 100,000 people)",2020,6.35465593745812
+United States,"Intentional homicides (per 100,000 people)",2021,6.77972198500888
+United States,"Intentional homicides (per 100,000 people)",2022,6.51267429794199
+United States,"Intentional homicides (per 100,000 people)",2023,5.76340794073065
+United States,"Intentional homicides (per 100,000 people)",2024,NA
+United States,"Intentional homicides (per 100,000 people)",2025,NA
+United States,"Intentional homicides (per 100,000 people)",...71,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1960,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1961,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1962,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1963,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1964,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1965,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1966,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1967,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1968,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1969,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1970,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1971,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1972,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1973,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1974,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1975,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1976,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1977,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1978,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1979,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1980,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1981,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1982,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1983,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1984,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1985,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1986,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1987,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1988,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1989,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1990,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1991,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1992,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1993,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1994,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1995,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1996,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1997,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1998,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",1999,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2000,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2001,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2002,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2003,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2004,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2005,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2006,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2007,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2008,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2009,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2010,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2011,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2012,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2013,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2014,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2015,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2016,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2017,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2018,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2019,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2020,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2021,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2022,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2023,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2024,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",2025,NA
+United States,"Internally displaced persons, new displacement associated with conflict and violence (number of cases)",...71,NA
+United States,GDP per capita (constant 2015 US$),1960,18991.5445998554
+United States,GDP per capita (constant 2015 US$),1961,19108.9353618196
+United States,GDP per capita (constant 2015 US$),1962,19965.1435740168
+United States,GDP per capita (constant 2015 US$),1963,20545.7842448928
+United States,GDP per capita (constant 2015 US$),1964,21437.5840707345
+United States,GDP per capita (constant 2015 US$),1965,22526.2055153932
+United States,GDP per capita (constant 2015 US$),1966,23714.9390303358
+United States,GDP per capita (constant 2015 US$),1967,24044.5651288028
+United States,GDP per capita (constant 2015 US$),1968,24948.3569003897
+United States,GDP per capita (constant 2015 US$),1969,25471.6161794352
+United States,GDP per capita (constant 2015 US$),1970,25231.1271587521
+United States,GDP per capita (constant 2015 US$),1971,25734.4828317751
+United States,GDP per capita (constant 2015 US$),1972,26798.5336106847
+United States,GDP per capita (constant 2015 US$),1973,28042.5519181903
+United States,GDP per capita (constant 2015 US$),1974,27637.2997756103
+United States,GDP per capita (constant 2015 US$),1975,27309.8688183059
+United States,GDP per capita (constant 2015 US$),1976,28509.1430593189
+United States,GDP per capita (constant 2015 US$),1977,29528.9663682275
+United States,GDP per capita (constant 2015 US$),1978,30834.9992322862
+United States,GDP per capita (constant 2015 US$),1979,31462.1003882108
+United States,GDP per capita (constant 2015 US$),1980,31081.6216322106
+United States,GDP per capita (constant 2015 US$),1981,31559.1293376105
+United States,GDP per capita (constant 2015 US$),1982,30696.0834382608
+United States,GDP per capita (constant 2015 US$),1983,31810.9216076638
+United States,GDP per capita (constant 2015 US$),1984,33818.823551545
+United States,GDP per capita (constant 2015 US$),1985,34918.1302039172
+United States,GDP per capita (constant 2015 US$),1986,35794.8877746784
+United States,GDP per capita (constant 2015 US$),1987,36701.9453874612
+United States,GDP per capita (constant 2015 US$),1988,37889.3773459827
+United States,GDP per capita (constant 2015 US$),1989,38911.5418959959
+United States,GDP per capita (constant 2015 US$),1990,39200.0658091762
+United States,GDP per capita (constant 2015 US$),1991,38637.8398179104
+United States,GDP per capita (constant 2015 US$),1992,39447.9472850606
+United States,GDP per capita (constant 2015 US$),1993,40002.4762253198
+United States,GDP per capita (constant 2015 US$),1994,41106.9881833481
+United States,GDP per capita (constant 2015 US$),1995,41710.8207256668
+United States,GDP per capita (constant 2015 US$),1996,42783.8165724095
+United States,GDP per capita (constant 2015 US$),1997,44151.6860410035
+United States,GDP per capita (constant 2015 US$),1998,45596.4306879224
+United States,GDP per capita (constant 2015 US$),1999,47234.2455290381
+United States,GDP per capita (constant 2015 US$),2000,48616.2546282435
+United States,GDP per capita (constant 2015 US$),2001,48597.4246124122
+United States,GDP per capita (constant 2015 US$),2002,48967.3661217576
+United States,GDP per capita (constant 2015 US$),2003,49905.5233080788
+United States,GDP per capita (constant 2015 US$),2004,51348.3473386025
+United States,GDP per capita (constant 2015 US$),2005,52649.5713060461
+United States,GDP per capita (constant 2015 US$),2006,53596.315236412
+United States,GDP per capita (constant 2015 US$),2007,54152.8292673551
+United States,GDP per capita (constant 2015 US$),2008,53703.962897927
+United States,GDP per capita (constant 2015 US$),2009,51863.6183416558
+United States,GDP per capita (constant 2015 US$),2010,52812.6829869279
+United States,GDP per capita (constant 2015 US$),2011,53215.5362314388
+United States,GDP per capita (constant 2015 US$),2012,54000.8410778217
+United States,GDP per capita (constant 2015 US$),2013,54728.860179812
+United States,GDP per capita (constant 2015 US$),2014,55665.2411187802
+United States,GDP per capita (constant 2015 US$),2015,56849.4697923159
+United States,GDP per capita (constant 2015 US$),2016,57430.8499298804
+United States,GDP per capita (constant 2015 US$),2017,58435.9707535619
+United States,GDP per capita (constant 2015 US$),2018,59817.6556798612
+United States,GDP per capita (constant 2015 US$),2019,61047.9648238812
+United States,GDP per capita (constant 2015 US$),2020,59533.609024416
+United States,GDP per capita (constant 2015 US$),2021,63096.7856149746
+United States,GDP per capita (constant 2015 US$),2022,64322.2332819139
+United States,GDP per capita (constant 2015 US$),2023,65667.281580468
+United States,GDP per capita (constant 2015 US$),2024,66856.5131698371
+United States,GDP per capita (constant 2015 US$),2025,67945.6146497427
+United States,GDP per capita (constant 2015 US$),...71,NA

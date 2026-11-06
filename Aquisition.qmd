@@ -1,0 +1,161 @@
+---
+title: "Aquisition"
+author: "Caroline Katko, Chandler Worth, Forever Tungate"
+date: "2026-11-6"
+format: html
+---
+
+This acquisition of data is showing how we are cleaning each country level csv and saving it to a cleaned csv file. It is to give us data for our final project that is easier to work with. 
+
+### Countries to look at:
+
+## High Income
+* USA
+
+* Ireland
+
+* Saudi Arabia
+```{r}
+#| warning: false
+
+library(tidyverse)
+
+usa_raw <- read_csv("data/raw/united_states.csv", skip = 3)
+ireland_raw <- read_csv("data/raw/ireland.csv", skip = 3)
+saudi_arabia_raw <- read_csv("data/raw/saudi_arabia.csv", skip = 3)
+
+```
+
+
+## Middle Income
+* Kazakhstan
+
+* Ghana
+
+* Brazil
+```{r}
+#| warning: false
+
+kazakhstan_raw <- read_csv("data/raw/kazahkstan.csv", skip = 3)
+ghana_raw <- read_csv("data/raw/ghana.csv", skip = 3)
+brazil_raw <- read_csv("data/raw/brazil.csv", skip = 3)
+
+```
+
+
+## Low Income
+* Afghanistan
+
+* Sudan
+
+* Yemen 
+
+```{r}
+#| warning: false
+
+afghanistan_raw <- read_csv("data/raw/afghanistan.csv", skip = 3)
+yemen_raw <- read_csv("data/raw/yemen.csv", skip = 3)
+sudan_raw <- read_csv("data/raw/sudan.csv", skip = 3)
+
+```
+Above we have read in all of the raw data csv's for the countries we want to look at. This is before cleaning the data which is done below. For each income group we have chosen 3 countries to represent it. 
+
+## Indicators
+```{r}
+#| warning: false
+
+indicators <- c(
+  "Intentional homicides (per 100,000 people)",
+  "Life expectancy at birth, total (years)",
+  "Population, total",
+  "Individuals using the Internet (% of population)",
+  "Unemployment, total (% of total labor force) (national estimate)",
+  "Access to electricity (% of population)",
+  "Internally displaced persons, new displacement associated with conflict and violence (number of cases)",
+  "Armed forces personnel (% of total labor force)",
+  "GDP per capita (constant 2015 US$)"
+)
+
+```
+
+## Creating string functions
+```{r}
+#| warning: false
+
+save_countries <- function(country) {
+  write_csv(country, paste0("data/clean/", deparse(substitute(country)), ".csv"))
+}
+
+lengthen_countries <- function(csv) {
+  csv %>% 
+    pivot_longer(
+      cols = !c("Country Name", "Country Code", "Indicator Name", "Indicator Code"),
+      names_to = "Year",
+      values_to = "Value"
+    )
+}
+
+clean_countries <- function(country) {
+  lengthen_countries(country) %>% 
+    select(`Country Name`, `Indicator Name`, Year, Value) %>% 
+    filter(`Indicator Name` %in% indicators)
+}
+
+```
+We created string functions so that it is easier to clean the data and save to new folder since there is 9 countries we have to do this for. 
+
+This is what we used to turn the variable names into string functions inside dplyr. https://stackoverflow.com/questions/71487035/turn-variable-name-into-string-inside-function-dplyr
+
+## Clean the data, filter for the indicators we want, select the rows we want to keep.
+```{r}
+#| warning: false
+
+usa <- clean_countries(usa_raw)
+ireland <- clean_countries(ireland_raw)
+saudi_arabia <- clean_countries(saudi_arabia_raw)
+
+kazakhstan <- clean_countries(kazakhstan_raw)
+ghana <- clean_countries(ghana_raw)
+brazil <- clean_countries(brazil_raw)
+
+afghanistan <- clean_countries(afghanistan_raw)
+yemen <- clean_countries(yemen_raw)
+sudan <- clean_countries(sudan_raw)
+
+```
+
+
+## Save the cleaned data
+```{r}
+#| warning: false
+
+save_countries(usa)
+save_countries(ireland)
+save_countries(saudi_arabia)
+
+save_countries(kazakhstan)
+save_countries(ghana)
+save_countries(brazil)
+
+save_countries(afghanistan)
+save_countries(yemen)
+save_countries(sudan)
+
+```
+Using our function created we saved the cleaned data and this saved each of these to a new data folder called "clean."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
