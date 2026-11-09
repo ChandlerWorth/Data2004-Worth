@@ -1,0 +1,332 @@
+---
+title: "Weekly 7: Who Visits the National Parks?"
+author: "Chandler Worth"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Overview
+
+In class, we started from a default chart and asked one question about every change: **what does this choice make the reader see?**
+
+This week you'll make those decisions yourself, on new data: visits to the U.S. National Parks, from the National Park Service, as collected for TidyTuesday. Kentucky has one of the parks in the data: Mammoth Cave.
+
+The question: **Where does Mammoth Cave sit among the National Parks?**
+
+This weekly is about **visualization judgment**. You'll do a little cleaning to get there, but the point is the charts and your reasons for them.
+
+A few things:
+
+1.  Add `#| echo: false` to your code blocks.
+2.  Use a new block when you move to a new task.
+3.  Code goes in the blocks. **Answers go outside them**, as prose. A comment inside a code chunk is not an answer.
+4.  Save the raw data to a file **once**, then work from the file. After it's saved, add `#| eval: false` to the block that downloads it.
+5.  Every chart you hand in should use a colorblind-safe palette, if it uses color at all.
+
+Due Monday, November 9 at 8pm.
+
+# Part 1: Get the data, and know what you're plotting
+
+The data is here:
+
+`https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-17/national_parks.csv`
+
+Read it in and save a copy to `data/raw/national_parks.csv`. Then read your saved copy and call it `parks_raw`.
+
+```{r}
+#| warning: false
+#| echo: false
+
+library(tidyverse)
+library(httr2)
+
+request <- request("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-17/national_parks.csv")
+
+request |> 
+  req_perform(path = "data/raw/national_parks.csv")
+
+parks_raw <- read.csv("data/raw/national_parks.csv")
+
+```
+
+> What type is `year`? Why isn't it numeric?
+>
+> Year is a character, because it is not a continuous number, it is a categorizing something in the instance by the year.
+
+```{r}
+#| warning: false
+#| echo: false
+
+is.numeric(parks_raw$year)
+
+head(parks_raw)
+```
+
+> Why would leaving the `Total` rows in create a problem for an analysis of annual visitation?
+>
+> Looking at the data it covers multiple years. Also the coverage of years is not the same for each park. This could create problems with the analysis. But for the most part if we just want one year we don't need this many rows.
+
+> How many kinds of `unit_type` are there? For this assignment, keep only `National Park` records and annual observations. Call the result `np`, and make `year` a number.
+>
+> There are 30 different unit types.
+
+```{r}
+#| warning: false
+#| echo: false
+
+parks_raw |>
+  summarise(unit_types = n_distinct(unit_type))
+
+np <- parks_raw |>
+  filter(unit_type == "National Park") |> 
+  mutate(year = as.numeric(year))
+
+np <- np |> 
+  filter(!is.na(year))
+```
+
+> Before we visualize anything, check whether one row is one park in one year.
+
+```{r}
+#| warning: false
+#| echo: false
+
+ np |> 
+  count(parkname, year) |> 
+  filter(n > 1)
+
+```
+
+You should find one park that appears twice in the same year. Here's the cleaning decision for it; run this:
+
+```{r}
+#| warning: false
+#| echo: false
+
+np <- np |>
+  distinct(unit_code, year, .keep_all = TRUE)
+```
+
+> After that cleaning, what does one row represent? How many parks are represented? What years does the file cover? One row represents one park in one year. One row represents one year within a park. 54 parks are represented. It covers 1904 to 2016.
+
+```{r}
+#| warning: false
+#| echo: false
+
+np |> 
+  count(parkname, year) |> 
+  filter(n > 1)
+
+np |> 
+  summarise(parks = n_distinct(parkname))
+
+np |> 
+  summarise(
+    earliest = min(year),
+    oldest = max(year)
+  )
+```
+
+> Why does the ending year matter for the claims you make later?
+>
+> It matters because it shows us the most recent year on file which might be the most accurate data and what we want to work with.
+
+# Part 2: Start with the obvious chart
+
+Your audience wants to know how the National Parks compared in 2016.
+
+```{r}
+#| warning: false
+#| echo: false
+
+parks_2016 <- np |>
+  filter(year == 2016)
+```
+
+> Make the most obvious bar chart: park on the x-axis and 2016 visitors on the y-axis. Don't improve it yet.
+
+```{r}
+#| warning: false
+#| echo: false
+library(ggplot2)
+
+parks_2016 |> 
+  ggplot(aes(x = unit_name, y = visitors)) +
+  geom_col() +
+  labs(title = "2016 Park Visitors",
+       x= "Park Name",
+       y = "Number of Visitors")
+```
+
+> Is the chart technically correct? What makes it difficult to use?
+>
+> Technically this chart is correct, it shows all the correct data and the number of visitors per park in 2016. What makes it difficult to use is the fact you cannot read any of the names for park name and also the fact the numbers are in scientific notation makes it hard to actually see the exact number for each number of park visitors.
+
+# Part 3: Make the comparison readable
+
+> Revise the chart so the park names are readable and the ordering helps the reader compare visitation.
+
+```{r}
+#| warning: false
+#| echo: false
+
+parks_2016 |> 
+  ggplot(aes(x = visitors, 
+             y = reorder(unit_name, visitors))) +
+  geom_col() +
+  scale_x_log10(labels = scales::comma) +
+  labs(title = "2016 Park Visitors",
+       y = "Park Name",
+       x = "Number of Visitors")
+```
+
+> Why put park names on the y-axis instead of the x-axis?
+>
+> By putting park names on the y axis instead of the x axis, it allows us to read the names better and allows us to actually see them so they aren't just all combining together.
+
+> Why reorder the parks by visitors?
+>
+> Since the numbers are so close together and they are measured in a large scale. This allows us to actually see which parks have more than others. We can compare them by the little differences in lengths better.
+
+> Should every park get its own color? I don't think every park needs its own color. There are so many that each one having there own color might get confusing or the colors migth be too close together to tell a difference.
+
+# Part 4: A real visualization problem
+
+Mammoth Cave is the local park we care about. First, find where it ranks in 2016. It ranks 33rd position.
+
+```{r}
+#| warning: false
+#| echo: false
+
+parks_2016 |> 
+  filter(unit_name == "Mammoth Cave National Park")
+
+parks_2016 <- parks_2016 |> 
+  arrange(desc(visitors)) |> 
+  mutate(position = row_number())
+
+parks_2016 |> 
+  filter(unit_name == "Mammoth Cave National Park")
+```
+
+Now the design problem:
+
+> A chart of only the top 10 parks makes Mammoth Cave disappear. A chart with 60 equally emphasized parks makes the reader work too hard. Create one visualization that helps a reader understand where Mammoth Cave sits relative to the other National Parks.
+
+There is no one right chart here. Make the one you can defend.
+
+```{r}
+#| warning: false
+#| echo: false
+
+palette.colors(palette = "Okabe-Ito")
+okabe_ito <- unname(palette.colors(palette = "Okabe-Ito")[2:8])
+
+parks_2016 <- parks_2016 |> 
+  mutate(Legend = if_else(unit_name == "Mammoth Cave National Park", "Mammoth Cave", "Other National Parks"))
+
+parks_2016 |> 
+  ggplot(aes(x = visitors, 
+             y = reorder(unit_name, visitors),
+             fill = Legend)) +
+  geom_col() +
+  scale_fill_manual(values = c("Mammoth Cave" = "#E69F00", "Other National Parks" = "#56B4E9")) +
+  scale_x_log10(labels = scales::comma) +
+  labs(title = "2016 Park Visitors",
+       y = "Park Name",
+       x = "Number of Visitors")
+```
+
+# Part 5: Defend the choices
+
+> What should the reader notice first when they look at your final chart?
+>
+> They should first notice mammoth cave sticking out in a different color.
+
+> Name two visualization choices you made deliberately. For each one, explain what that choice helps the reader see.
+>
+> The first Visualization choice that I made deliberately was to change the color of the Mammoth Cave bar. I did this so that it sticks out among the other 59 columns so the reader isn't searching for it. The second visualization choice I made was to use the "Okabe_Ito" color palate we looked at in class. This is so that it was in a color-blind safe palate so every reader could read it.
+
+> Name one visualization choice you considered but rejected. Why did you reject it?
+>
+> I considered doing only a certain number of parks. With mammoth cave being in 33rd position, I thought about taking the top 35 national parks but the scale of this didn't really make since. To the readers eye it would look like mammoth cave was one of the worst visited parks in the nation when it is actually right around the middle of this scale.
+
+> What does your chart support saying? What does it **not** support saying?
+>
+> It supports saying that mammoth cave nation park is among the middle of the \# of visitors in 2016. It does not support saying that it is among the top half.
+
+# Bringing it together
+
+> In 3–4 sentences, answer the question for your reader: where does Mammoth Cave sit among the National Parks? Include one number, one interpretation, and one limitation.
+>
+> Out of 60 national parks viewed in this data Mammoth Cave sits at around the middle of the \# of visitors annually. In 2016 they were ranked 33rd in the \# of visitors annually. This outs them at the bottom half of the 60 parks but still shows them in the middle. One limitation to the graph above and it's showcasing of the data is that it is only for 2016. The other years might have mammoth cave ranking higher or lower in the number of visitors annually.
+
+# Disclosure appendix
+
+> What did you try first? Include the code you wrote and the actual error message, or a clear description of the problem if there was no error.
+
+> If you used an AI system: the exact prompt, exactly what it returned, what it got wrong or left unclear, and what you changed.
+
+> If you didn't use one, say so.
+
+I looked up how would i filter out N/A's from the year. It gave me back this
+
+filter(!is.na(year)).
+
+I couldn't figure out how to reorder the geom col call so that i can see the park visitors in order. So I looked up in the search bar. "how do i reorder a geom col call by number" Below is what it gave me back.
+
+library(ggplot2)
+
+Sample data
+
+df \<- data.frame( category = c("A", "B", "C", "D"), value = c(10, 50, 30, 20) )
+
+1.  Ascending order (Smallest to Largest)
+
+ggplot(df, aes(x = reorder(category, value), y = value)) + geom_col()
+
+2.  Descending order (Largest to Smallest)
+
+ggplot(df, aes(x = reorder(category, -value), y = value)) + geom_col()
+
+I needed to make the scale_x_log10 command better so that it wasn't giving me scientific notation numbers so i typed into Google this "how would i make the scale_x_log10 command in r be so there is no log function and comma numbers." It gave me back this
+
+To make your `scale_x_log10()` axis display original, raw numbers (no mathematical log functions like \\(10\^{x}\\) or scientific notation) formatted with commas (e.g., `1,000` instead of `1000`), you need to pass the **`scales::comma`** function to the `labels` argument. \[[1](https://r-statistics.co/ggplot2-scale_x_log10-in-R.html)\]
+
+**The Solution**
+
+**`scale_x_log10(labels = scales::comma)`**I couldn't figure out how to take the top 30 rows so I put into Google this. "how would a make a geom_col call only take the top 30 rows." It gave me back this
+
+To make a geom_col plot only display the top 30 rows, you should slice or filter your data frame in your pipeline before passing it to ggplot(). ggplot2 visualizes whatever data it receives, so managing the row count is best handled using data manipulation tools like dplyr. Here are the two best ways to do this depending on how you want to handle ties:
+
+Method 1: Using slice_max() (Recommended)
+
+slice_max() sorts the data by a specific column and selects the top N rows. By default, it includes ties (which might result in more than 30 rows), but you can turn this off by setting with_ties = FALSE.
+
+library(dplyr) library(ggplot2)
+
+your_data %\>% \# 1. Grab the top 30 rows based on your numeric column slice_max(order_by = numeric_value_column, n = 30, with_ties = FALSE) %\>%
+
+\# 2. Pass the filtered data straight into ggplot ggplot(aes(x = reorder(category_column, numeric_value_column), y = numeric_value_column)) + geom_col() + coord_flip() \# Optional: makes it a horizontal chart for easier reading
+
+I need help with figuring out how to make mammoth cave a different color in the geom col call. so i typed into Google this. "How would i make one column a different color in a geom col call." IT gave me back this
+
+library(ggplot2) library(dplyr)
+
+1.  Create sample data
+
+df \<- data.frame( category = c("A", "B", "C", "D"), value = c(10, 25, 15, 30) )
+
+2.  Add a new column to define the color (e.g., highlight category "B")
+
+df \<- df %\>% mutate(bar_color = if_else(category == "B", "Highlight", "Normal"))
+
+3.  Plot with geom_col and scale_fill_manual
+
+ggplot(df, aes(x = category, y = value, fill = bar_color)) + geom_col() + scale_fill_manual(values = c("Highlight" = "firebrick", "Normal" = "grey70")) + guides(fill = "none") \# Removes the legend if you don't need it
+
+# Before you submit
+
+Render in a clean session: restart R, then render. Commit and push the `.qmd`, the `.html`, **and** your saved `.csv`.
