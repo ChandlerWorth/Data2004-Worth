@@ -1,0 +1,76 @@
+---
+title: "Wrangling + Q/A"
+author: "Caroline Katko, Forever Tungate, Chandler Worth"
+format: html
+---
+
+# Read in Data
+
+We read in all of the data that we had cleaned in the last part of the project.
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+
+usa <- read_csv("clean/usa.csv")
+ireland <- read_csv("clean/ireland.csv")
+saudi_arabia <- read_csv("clean/saudi_arabia.csv")
+kazakhstan <- read_csv("clean/kazakhstan.csv")
+ghana <- read_csv("clean/ghana.csv")
+brazil <- read_csv("clean/brazil.csv")
+afghanistan <- read_csv("clean/afghanistan.csv")
+yemen <- read_csv("clean/yemen.csv")
+sudan <- read_csv("clean/sudan.csv")
+
+
+```
+
+Then join the data files together into one table.
+
+```{r}
+#| warning: false
+
+all_data <- bind_rows(usa, ireland, saudi_arabia, kazakhstan, ghana, brazil, 
+                      afghanistan, yemen, sudan)
+
+```
+
+Here is where we are giving a label to internet usage, and to income.
+
+```{r}
+#| warning: false
+
+all_data <- all_data |> 
+  pivot_wider(
+    id_cols = c("Country Name", Year),
+    names_from  = `Indicator Name`,
+    values_from = Value)
+
+all_data <- all_data |> 
+  mutate(`Individuals using the Internet (% of population)` = format(`Individuals using the Internet (% of population)`, scientific = FALSE))
+
+all_data <- all_data |> 
+  mutate(
+    internet_dummy = case_when(
+      `Individuals using the Internet (% of population)` < 50 ~ 0,
+      `Individuals using the Internet (% of population)` > 50 ~ 1,))
+
+all_data <- all_data |> 
+  mutate(income_dummy = case_when(`Country Name` == "United States" ~ "1",
+                           `Country Name` == "Ireland" ~ "1",
+                           `Country Name` == "Saudi Arabia" ~ "1",
+                           `Country Name` == "Brazil" ~ "2",
+                           `Country Name` == "Kazakhstan" ~"2",
+                           `Country Name` == "Ghana" ~ "2",
+                           `Country Name` == "Afghanistan" ~ "3",
+                           `Country Name` == "Sudan" ~ "3",
+                           `Country Name` == "Yemen, Rep." ~ "3"))
+
+
+all_data <- all_data |> 
+  mutate(income_level = case_when(income_dummy == 1 ~ "High Income",
+                                  income_dummy == 2 ~ "Medium Income",
+                                  income_dummy == 3 ~ "Low Income"))
+
+```
