@@ -1,0 +1,104 @@
+---
+title: "Wrangling + Q/A"
+author: "Caroline Katko, Forever Tungate, Chandler Worth"
+format: html
+---
+
+# Wrangling + Q/A
+
+## Read in Data
+
+We read in all of the data that we had cleaned in the last part of the project. This data has been cleaned to a country name, indicator name, and year and value.
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+
+usa <- read_csv("clean/usa.csv")
+ireland <- read_csv("clean/ireland.csv")
+saudi_arabia <- read_csv("clean/saudi_arabia.csv")
+kazakhstan <- read_csv("clean/kazakhstan.csv")
+ghana <- read_csv("clean/ghana.csv")
+brazil <- read_csv("clean/brazil.csv")
+afghanistan <- read_csv("clean/afghanistan.csv")
+yemen <- read_csv("clean/yemen.csv")
+sudan <- read_csv("clean/sudan.csv")
+
+
+```
+
+## Join Countries Into One Table
+
+Then join the data files together into one table. Using bind_row we are able to see all the countries in one singular table that we can work with.
+
+```{r}
+#| warning: false
+
+all_data <- bind_rows(usa, ireland, saudi_arabia, kazakhstan, ghana, brazil, 
+                      afghanistan, yemen, sudan)
+
+```
+
+## Labeling Internet Usage and Income
+
+Here is where we are giving a label to internet usage, and to income.
+
+First we pivoted the data wider so that each column in one country and a specific year with all the values from that year. This way each specific year and the country's data is all together.
+
+```{r}
+#| warning: false
+
+all_data <- all_data |> 
+  pivot_wider(
+    id_cols = c("Country Name", Year),
+    names_from  = `Indicator Name`,
+    values_from = Value)
+
+```
+
+Next we mutated the Individuals using the internet to be numeric so we could create the dummy value. Also we made the value not be in scientific notation so it is easier to look at and work with.
+
+```{r}
+
+all_data <- all_data |> 
+  mutate(`Individuals using the Internet (% of population)` = as.numeric(`Individuals using the Internet (% of population)`, scientific = FALSE))
+
+```
+
+In the code below we added values to the countries by the level of internet usage and the income level. For internet we if the data was above 50% we gave them a 1 and if it was below 50% we gave them a 0. For income it was sorted into 3 different categories, High, Middle, and Low Income, for each category they were assigned numbers High = 1, Middle = 2, Low = 3.
+
+This all will allow us to easily look at data and make plots that are easily readable. We can look at when a country changes from a zero to a one in the internet category as well and we can look across income groups instead of separate countries.
+
+```{r}
+all_data <- all_data |> 
+  mutate(
+    internet_dummy = case_when(
+      `Individuals using the Internet (% of population)` < 50 ~ "0",
+      `Individuals using the Internet (% of population)` > 50 ~ "1",))
+
+all_data <- all_data |> 
+  mutate(income_dummy = case_when(`Country Name` == "United States" ~ "1",
+                                  `Country Name` == "Ireland" ~ "1",
+                                  `Country Name` == "Saudi Arabia" ~ "1",
+                                  `Country Name` == "Brazil" ~ "2",
+                                  `Country Name` == "Kazakhstan" ~"2",
+                                  `Country Name` == "Ghana" ~ "2",
+                                  `Country Name` == "Afghanistan" ~ "3",
+                                  `Country Name` == "Sudan" ~ "3",
+                                  `Country Name` == "Yemen, Rep." ~ "3"))
+
+all_data <- all_data |> 
+  mutate(income_level = case_when(income_dummy == 1 ~ "High Income",
+                                  income_dummy == 2 ~ "Medium Income",
+                                  income_dummy == 3 ~ "Low Income"))
+
+```
+
+Lastly we saved all the data into one clean csv file that we can work with later.
+
+```{r}
+
+write_csv(all_data, "clean/all_countries.csv")
+
+```
